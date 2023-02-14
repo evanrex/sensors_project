@@ -1,0 +1,4 @@
+Target: Si-Diss-Water (SILICON) (mg/L) Result
+Optimised Hyper-Parameters: {'activation': 'tanh', 'hidden_layer_sizes': (100,)}
+Evaluation Metrics: {'coef_det': -2.993691946407836, 'rmse': 2.993691946407836, 'rmsle': 1.0965073903925215, 'mmre': 0.9423275035680416, 'pred25': 0.48425787106446777}
+####################################################################################################

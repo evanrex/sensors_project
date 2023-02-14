@@ -1,0 +1,4 @@
+Target: NO3+NO2-N-Diss-Water (NITRATE + NITRITE NITROGEN) (mg/L) Result
+Optimised Hyper-Parameters: {'activation': 'tanh', 'hidden_layer_sizes': 7}
+Evaluation Metrics: {'coef_det': -6.774917608563001, 'rmse': 6.774917608563, 'rmsle': 1.9132272055941058, 'mmre': 9.791993223817393, 'pred25': 0.14430284857571216}
+####################################################################################################

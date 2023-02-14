@@ -1,0 +1,4 @@
+Target: TAL-Diss-Water (TOTAL ALKALINITY AS CALCIUM CARBONATE) (mg/L) Result
+Optimised Hyper-Parameters: {'activation': 'tanh', 'hidden_layer_sizes': (50,)}
+Evaluation Metrics: {'coef_det': -22.405560102596855, 'rmse': 22.40556010259685, 'rmsle': 3.1093091469257192, 'mmre': 0.10449869632116814, 'pred25': 0.9505247376311844}
+####################################################################################################

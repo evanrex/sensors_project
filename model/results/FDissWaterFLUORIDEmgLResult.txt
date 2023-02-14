@@ -1,0 +1,4 @@
+Target: F-Diss-Water (FLUORIDE) (mg/L) Result
+Optimised Hyper-Parameters: {'activation': 'tanh', 'hidden_layer_sizes': (100,)}
+Evaluation Metrics: {'coef_det': -0.36631432852534107, 'rmse': 0.36631432852534107, 'rmsle': -1.0042634930491168, 'mmre': 0.5940034065157259, 'pred25': 0.48875562218890556}
+####################################################################################################

@@ -1,0 +1,4 @@
+Target: Na-Diss-Water (SODIUM) (mg/L) Result
+Optimised Hyper-Parameters: {'activation': 'relu', 'hidden_layer_sizes': (4,)}
+Evaluation Metrics: {'coef_det': -22.493434730480775, 'rmse': 22.49343473048078, 'rmsle': 3.1132234768750506, 'mmre': 0.3779463489369348, 'pred25': 0.6789730134932533}
+####################################################################################################

@@ -1,0 +1,4 @@
+Target: NH4-N-Diss-Water (AMMONIUM NITROGEN) (mg/L) Result
+Optimised Hyper-Parameters: {'activation': 'tanh', 'hidden_layer_sizes': (50,)}
+Evaluation Metrics: {'coef_det': -0.8168906254471342, 'rmse': 0.8168906254471342, 'rmsle': -0.20225006646569588, 'mmre': 8.380785193130833, 'pred25': 0.055097451274362816}
+####################################################################################################

@@ -1,0 +1,1147 @@
+running job: 3
+Starting Main
+Using random state: 3
+Loaded Data
+Starting Experiments
+Training Unnamed: 0 model ...
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 2/5] END activation=relu, hidden_layer_sizes=(50,);, score=-5810.990 total time= 5.8min
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 5/5] END activation=relu, hidden_layer_sizes=(50,);, score=-5544.659 total time= 5.9min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(50,);, score=-5191.069 total time= 6.0min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(4,);, score=-5775.979 total time= 3.1min
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-9270.421 total time= 3.7min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(4,);, score=-9278.073 total time= 3.0min
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-8796.604 total time= 3.7min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(4,);, score=-6549.330 total time= 3.1min
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-9026.713 total time= 3.7min
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 5/5] END activation=relu, hidden_layer_sizes=(100,);, score=-6056.607 total time= 7.1min
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 4/5] END activation=relu, hidden_layer_sizes=(4,);, score=-6008.352 total time= 3.1min
+[CV 1/5] END activation=tanh, hidden_layer_sizes=7;, score=-8183.672 total time= 4.6min
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 1/5] END activation=relu, hidden_layer_sizes=(13,);, score=-5437.302 total time= 3.5min
+[CV 4/5] END activation=tanh, hidden_layer_sizes=7;, score=-8591.232 total time= 4.3min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(4,);, score=-5825.472 total time= 3.2min
+[CV 2/5] END activation=tanh, hidden_layer_sizes=7;, score=-8414.456 total time= 4.7min
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 3/5] END activation=relu, hidden_layer_sizes=(13,);, score=-5338.848 total time= 3.5min
+[CV 5/5] END activation=tanh, hidden_layer_sizes=7;, score=-8348.264 total time= 4.7min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(13,);, score=-5930.512 total time= 3.4min
+[CV 3/5] END activation=tanh, hidden_layer_sizes=7;, score=-8124.289 total time= 5.0min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(25,);, score=-5329.722 total time= 3.7min
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-7054.437 total time= 4.8min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(25,);, score=-5259.382 total time= 3.8min
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-7264.601 total time= 5.1min
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-8852.597 total time= 3.8min
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-6994.765 total time= 5.3min
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-9092.204 total time= 3.9min
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-7435.033 total time= 5.3min
+[CV 1/5] END activation=relu, hidden_layer_sizes=7;, score=-5536.082 total time= 4.1min
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-7198.453 total time= 5.2min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(13,);, score=-5872.076 total time= 4.3min
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-5814.482 total time= 5.2min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(25,);, score=-6161.116 total time= 4.6min
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-6238.216 total time= 4.9min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(50,);, score=-5209.406 total time= 4.3min
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-6038.365 total time= 5.4min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(25,);, score=-5328.838 total time= 4.6min
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-5716.099 total time= 5.3min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(25,);, score=-5981.247 total time= 4.5min
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-5993.083 total time= 5.5min
+[CV 4/5] END activation=relu, hidden_layer_sizes=7;, score=-5596.010 total time= 4.1min
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-6034.463 total time= 6.2min
+[CV 5/5] END activation=relu, hidden_layer_sizes=7;, score=-5756.429 total time= 4.2min
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-6302.049 total time= 6.5min
+[CV 3/5] END activation=relu, hidden_layer_sizes=7;, score=-5453.751 total time= 4.3min
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-6116.020 total time= 6.6min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(13,);, score=-5475.835 total time= 4.2min
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-6032.430 total time= 6.7min
+[CV 2/5] END activation=relu, hidden_layer_sizes=7;, score=-5742.266 total time= 4.2min
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-6187.677 total time= 6.8min
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/sensors_project/model/main.py:61: RuntimeWarning: divide by zero encountered in divide
+  perc = np.abs(y_true-y_pred)/y_true
+Training Ca-Diss-Water (CALCIUM) (mg/L) Result model ...
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-26.679 total time= 1.2min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(4,);, score=-21.919 total time= 1.4min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(13,);, score=-16.172 total time=  38.3s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-22.770 total time=  31.5s
+[CV 3/5] END activation=relu, hidden_layer_sizes=(4,);, score=-27.155 total time= 1.7min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(13,);, score=-18.151 total time=  36.2s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-15.032 total time= 2.6min
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-87.678 total time= 3.0min
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 4/5] END activation=relu, hidden_layer_sizes=(100,);, score=-5091.951 total time= 5.5min
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-5570.921 total time= 7.0min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(4,);, score=-20.513 total time=  38.5s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-38.460 total time= 2.5min
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-184.300 total time= 3.2min
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 4/5] END activation=relu, hidden_layer_sizes=7;, score=-15.243 total time=  45.3s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-22.556 total time= 1.7min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(50,);, score=-36.867 total time=  23.1s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-1016.053 total time= 3.1min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(13,);, score=-16.237 total time=  34.7s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-16.390 total time= 2.2min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(50,);, score=-37.215 total time=  22.5s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-127.975 total time= 3.2min
+[CV 1/5] END activation=relu, hidden_layer_sizes=7;, score=-18.177 total time=  42.2s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-15.276 total time= 2.2min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(100,);, score=-35.937 total time=  22.2s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-66.531 total time= 3.2min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(13,);, score=-17.972 total time=  30.6s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-32.746 total time= 2.3min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(100,);, score=-34.713 total time=  26.5s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=7;, score=-173.660 total time= 3.4min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(50,);, score=-5248.241 total time= 5.1min
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-5770.089 total time= 7.3min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(4,);, score=-28.118 total time=  57.2s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-32.719 total time= 2.0min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(100,);, score=-28.054 total time=  35.4s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-160.393 total time= 3.2min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(25,);, score=-17.178 total time=  27.9s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-21.632 total time= 1.6min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(25,);, score=-36.076 total time=  30.9s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=7;, score=-52.788 total time= 3.3min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(100,);, score=-5762.108 total time= 5.6min
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-6143.872 total time= 6.4min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(4,);, score=-19.766 total time=  51.3s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-13.217 total time= 2.0min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(100,);, score=-48.413 total time=  26.6s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=7;, score=-76.829 total time= 3.4min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(25,);, score=-56.675 total time=  48.5s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-15.574 total time= 1.9min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(50,);, score=-28.352 total time=  34.2s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=7;, score=-1009.702 total time= 3.3min
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-34.398 total time= 1.4min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(4,);, score=-41.702 total time=  30.9s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=7;, score=-117.183 total time= 3.4min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(100,);, score=-14.662 total time=  22.9s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-36.935 total time= 1.8min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(25,);, score=-47.912 total time=  37.5s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-40.375 total time= 3.3min
+Training Cl-Diss-Water (CHLORIDE) (mg/L) Result model ...
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+Training EC-Phys-Water (ELECTRICAL CONDUCTIVITY) (mS/m) Result model ...
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 2/5] END activation=relu, hidden_layer_sizes=(100,);, score=-49.452 total time=  22.7s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=7;, score=-58.478 total time= 1.4min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(4,);, score=-0.407 total time=  23.1s
+[CV 4/5] END activation=relu, hidden_layer_sizes=(4,);, score=-3.673 total time=  26.3s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-3.730 total time=  58.9s
+[CV 2/5] END activation=relu, hidden_layer_sizes=(13,);, score=-10.785 total time=  26.8s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-16.398 total time= 1.4min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(100,);, score=-0.949 total time=   5.5s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-1.336 total time=  22.8s
+[CV 3/5] END activation=relu, hidden_layer_sizes=(4,);, score=-7.489 total time= 1.1min
+[CV 3/5] END activation=relu, hidden_layer_sizes=7;, score=-19.457 total time= 1.2min
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 4/5] END activation=relu, hidden_layer_sizes=(50,);, score=-26.643 total time=  29.7s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-46.269 total time= 2.8min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(100,);, score=-0.513 total time=   3.8s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-0.494 total time=  20.5s
+[CV 4/5] END activation=relu, hidden_layer_sizes=7;, score=-3.549 total time=  16.7s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-2.516 total time= 1.3min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(25,);, score=-8.595 total time=  16.3s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=7;, score=-9.108 total time= 1.2min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(13,);, score=-1.025 total time=  10.6s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-0.997 total time=  35.2s
+[CV 2/5] END activation=relu, hidden_layer_sizes=(50,);, score=-11.551 total time=  15.4s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=7;, score=-3.576 total time=  49.7s
+[CV 2/5] END activation=relu, hidden_layer_sizes=7;, score=-26.244 total time= 1.2min
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 3/5] END activation=relu, hidden_layer_sizes=(50,);, score=-16.585 total time=  24.9s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=7;, score=-14.351 total time= 1.6min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(13,);, score=-60.933 total time=  49.1s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-121.087 total time= 5.2min
+[CV 5/5] END activation=relu, hidden_layer_sizes=7;, score=-146.634 total time=  22.3s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-38.964 total time= 2.2min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(13,);, score=-0.411 total time=  12.0s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-0.303 total time=  17.0s
+[CV 1/5] END activation=relu, hidden_layer_sizes=(50,);, score=-3.607 total time=   8.2s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-3.488 total time= 2.1min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(50,);, score=-61.307 total time=  53.2s
+[CV 5/5] END activation=relu, hidden_layer_sizes=(4,);, score=-1.896 total time=  18.3s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-0.789 total time=  50.5s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-3.337 total time=  34.7s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-4.304 total time= 2.0min
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-30.227 total time= 3.2min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(50,);, score=-27.064 total time=  58.6s
+[CV 1/5] END activation=relu, hidden_layer_sizes=(4,);, score=-27.157 total time= 1.3min
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-56.975 total time= 6.8min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(13,);, score=-136.545 total time=  25.8s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-52.967 total time= 2.5min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(50,);, score=-0.388 total time=   7.6s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-0.352 total time=  20.0s
+[CV 4/5] END activation=relu, hidden_layer_sizes=(25,);, score=-3.154 total time=  16.6s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-52.781 total time=  50.0s
+[CV 3/5] END activation=relu, hidden_layer_sizes=7;, score=-9.272 total time=  44.4s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-6.954 total time= 1.6min
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-0.980 total time=  29.9s
+[CV 4/5] END activation=relu, hidden_layer_sizes=(4,);, score=-4.446 total time= 1.2min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(13,);, score=-23.971 total time=  42.1s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-666.801 total time= 2.5min
+[CV 5/5] END activation=relu, hidden_layer_sizes=7;, score=-32.962 total time=  44.2s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-31.974 total time= 2.2min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(100,);, score=-87.014 total time=  58.3s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-88.752 total time= 7.2min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(25,);, score=-48.311 total time=  29.9s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-162.527 total time= 1.8min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(13,);, score=-0.574 total time=   8.6s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-0.427 total time=  13.8s
+[CV 2/5] END activation=relu, hidden_layer_sizes=(4,);, score=-4.588 total time=  25.9s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-2.850 total time= 1.2min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(25,);, score=-8.560 total time=  24.7s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-8.683 total time= 1.1min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(13,);, score=-1.294 total time=  17.5s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-1.097 total time=  38.1s
+[CV 2/5] END activation=relu, hidden_layer_sizes=(100,);, score=-11.411 total time=  14.5s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=7;, score=-11.429 total time=  35.9s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-3.555 total time= 1.6min
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-63.602 total time= 3.2min
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 3/5] END activation=relu, hidden_layer_sizes=(100,);, score=-16.441 total time=  22.1s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-13.423 total time= 1.3min
+[CV 4/5] END activation=relu, hidden_layer_sizes=7;, score=-33.166 total time=  45.8s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-34.006 total time= 4.2min
+[CV 3/5] END activation=relu, hidden_layer_sizes=7;, score=-35.462 total time=  37.2s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-163.513 total time= 2.1min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(25,);, score=-0.496 total time=   6.9s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=7;, score=-0.435 total time=  18.8s
+[CV 2/5] END activation=relu, hidden_layer_sizes=(13,);, score=-3.282 total time=  24.5s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-4.269 total time= 1.6min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(50,);, score=-9.066 total time=  14.2s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-10.811 total time=  47.5s
+[CV 3/5] END activation=relu, hidden_layer_sizes=7;, score=-0.953 total time=  19.9s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-1.178 total time=  46.3s
+[CV 5/5] END activation=relu, hidden_layer_sizes=(100,);, score=-19.589 total time=  41.3s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-3.150 total time= 1.5min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(100,);, score=-19.654 total time=  17.7s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-34.118 total time= 3.1min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(100,);, score=-5104.237 total time= 5.5min
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-5592.290 total time= 7.4min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(4,);, score=-62.915 total time=  35.6s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-20.298 total time= 1.1min
+[CV 2/5] END activation=relu, hidden_layer_sizes=7;, score=-50.666 total time=  54.0s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-29.606 total time= 5.2min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(13,);, score=-35.656 total time=  28.9s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-54.119 total time= 1.5min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(4,);, score=-0.940 total time=  22.5s
+[CV 3/5] END activation=relu, hidden_layer_sizes=(4,);, score=-3.801 total time=  32.2s
+[CV 3/5] END activation=relu, hidden_layer_sizes=(4,);, score=-12.239 total time=  42.5s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-12.412 total time=  51.8s
+[CV 5/5] END activation=relu, hidden_layer_sizes=(25,);, score=-1.287 total time=  15.0s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-0.995 total time=  35.4s
+[CV 5/5] END activation=relu, hidden_layer_sizes=(50,);, score=-13.828 total time=  36.3s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-3.629 total time= 1.7min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(100,);, score=-23.745 total time=  24.3s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-673.579 total time= 3.1min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(50,);, score=-35.498 total time=  20.3s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-37.124 total time= 2.1min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(13,);, score=-0.455 total time=   8.7s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-0.325 total time=  17.3s
+[CV 3/5] END activation=relu, hidden_layer_sizes=(13,);, score=-3.363 total time=  20.7s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-3.384 total time= 1.9min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(100,);, score=-8.087 total time=  17.5s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-14.083 total time= 1.3min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(25,);, score=-1.026 total time=   9.7s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-0.896 total time=  35.6s
+[CV 1/5] END activation=relu, hidden_layer_sizes=(50,);, score=-3.596 total time=  14.3s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=7;, score=-3.320 total time=  30.2s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-3.601 total time= 1.6min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(100,);, score=-16.900 total time=  27.1s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=7;, score=-25.404 total time= 3.2min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(100,);, score=-18.356 total time=  25.1s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=7;, score=-11.128 total time= 2.3min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(50,);, score=-45.950 total time=  53.9s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-79.620 total time= 5.2min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(13,);, score=-49.204 total time=  29.0s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-36.377 total time= 1.7min
+[CV 2/5] END activation=relu, hidden_layer_sizes=7;, score=-0.365 total time=  15.1s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-0.332 total time=  20.4s
+[CV 5/5] END activation=relu, hidden_layer_sizes=(100,);, score=-42.353 total time=  17.5s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-3.163 total time= 2.4min
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-8.823 total time= 1.5min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(13,);, score=-0.930 total time=  11.5s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-0.834 total time=  40.2s
+[CV 1/5] END activation=relu, hidden_layer_sizes=(100,);, score=-3.457 total time=  12.5s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-3.666 total time=  31.1s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-4.589 total time= 1.7min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(100,);, score=-17.060 total time=  24.0s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-58.136 total time= 3.3min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(100,);, score=-139.458 total time= 1.2min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(4,);, score=-0.371 total time=  19.5s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-0.281 total time=  17.5s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-3.121 total time= 2.3min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(100,);, score=-9.282 total time=   9.2s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-7.581 total time=  46.7s
+[CV 1/5] END activation=relu, hidden_layer_sizes=7;, score=-1.000 total time=  11.1s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-1.174 total time=  25.9s
+[CV 5/5] END activation=relu, hidden_layer_sizes=7;, score=-11.408 total time= 1.9min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(50,);, score=-24.326 total time=  30.3s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=7;, score=-668.827 total time= 3.3min
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-59.937 total time= 2.3min
+[CV 4/5] END activation=relu, hidden_layer_sizes=7;, score=-0.455 total time=   8.4s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-0.361 total time=  18.7s
+[CV 3/5] END activation=relu, hidden_layer_sizes=(25,);, score=-3.407 total time=  10.4s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-3.014 total time= 2.2min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(100,);, score=-7.874 total time=  20.0s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-7.433 total time= 1.3min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(50,);, score=-1.221 total time=   7.5s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=7;, score=-0.968 total time=  39.4s
+[CV 3/5] END activation=relu, hidden_layer_sizes=(50,);, score=-6.241 total time=  16.3s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-3.234 total time=  42.7s
+[CV 5/5] END activation=relu, hidden_layer_sizes=(4,);, score=-24.837 total time=  28.8s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=7;, score=-26.960 total time= 3.3min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(25,);, score=-26.863 total time=  39.1s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-52.076 total time= 1.9min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(13,);, score=-0.679 total time=  14.7s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-0.285 total time=  17.2s
+[CV 3/5] END activation=relu, hidden_layer_sizes=(100,);, score=-3.194 total time=  10.0s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=7;, score=-52.790 total time=  31.9s
+[CV 4/5] END activation=relu, hidden_layer_sizes=(4,);, score=-11.163 total time=  38.7s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-12.696 total time=  53.8s
+[CV 3/5] END activation=relu, hidden_layer_sizes=(25,);, score=-0.953 total time=   5.4s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-1.018 total time=  28.0s
+[CV 2/5] END activation=relu, hidden_layer_sizes=7;, score=-11.278 total time=  34.5s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-11.216 total time=  49.9s
+[CV 2/5] END activation=relu, hidden_layer_sizes=(25,);, score=-25.397 total time=  26.4s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=7;, score=-57.534 total time= 3.4min
+Training F-Diss-Water (FLUORIDE) (mg/L) Result model ...
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+Training K-Diss-Water (POTASSIUM) (mg/L) Result model ...
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+Training Mg-Diss-Water (MAGNESIUM) (mg/L) Result model ...
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+Training NH4-N-Diss-Water (AMMONIUM NITROGEN) (mg/L) Result model ...
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+Training NO3+NO2-N-Diss-Water (NITRATE + NITRITE NITROGEN) (mg/L) Result model ...
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+Training Na-Diss-Water (SODIUM) (mg/L) Result model ...
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+Training PO4-P-Diss-Water (ORTHO PHOSPHATE AS PHOSPHORUS) (mg/L) Result model ...
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/site-packages/sklearn/neural_network/_multilayer_perceptron.py:679: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home-mscluster/erex/anaconda3/envs/river/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home-mscluster/erex/sensors_project/model/main.py", line 134, in <module>
+    main()
+  File "/home-mscluster/erex/sensors_project/model/main.py", line 131, in main
+    test_pickle(models,models_load,evaluations,evaluations_load, df,random_state=random_state)
+  File "/home-mscluster/erex/sensors_project/model/main.py", line 28, in test_pickle
+    assert eval_dict == pickled_eval_dict
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+[CV 2/5] END activation=relu, hidden_layer_sizes=(100,);, score=-0.459 total time=   2.3s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-0.396 total time=   9.3s
+[CV 1/5] END activation=relu, hidden_layer_sizes=(25,);, score=-43.914 total time= 1.0min
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-203.851 total time= 3.3min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(25,);, score=-5.358 total time=  15.5s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-3.458 total time=  51.8s
+[CV 5/5] END activation=relu, hidden_layer_sizes=(25,);, score=-96.451 total time= 1.1min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(100,);, score=-5024.783 total time= 5.6min
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-5767.825 total time= 7.2min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(4,);, score=-17.452 total time=  48.1s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-18.578 total time=  58.0s
+[CV 5/5] END activation=relu, hidden_layer_sizes=7;, score=-22.959 total time= 1.0min
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-47.150 total time= 7.3min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(25,);, score=-35.313 total time=  27.7s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-48.787 total time= 3.2min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(100,);, score=-0.405 total time=   7.8s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-0.322 total time=  19.1s
+[CV 2/5] END activation=relu, hidden_layer_sizes=(25,);, score=-3.258 total time=  11.4s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-3.255 total time= 2.4min
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-16.635 total time= 1.0min
+[CV 4/5] END activation=relu, hidden_layer_sizes=7;, score=-1.056 total time=   9.5s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-1.186 total time=  34.5s
+[CV 4/5] END activation=relu, hidden_layer_sizes=(25,);, score=-3.486 total time=  15.7s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=7;, score=-3.219 total time=  38.9s
+[CV 4/5] END activation=relu, hidden_layer_sizes=(4,);, score=-19.826 total time=  59.0s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-19.646 total time= 5.0min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(13,);, score=-0.499 total time=   1.8s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-0.408 total time=   6.3s
+[CV 1/5] END activation=relu, hidden_layer_sizes=(4,);, score=-48.163 total time= 1.5min
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-59.382 total time= 2.7min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(25,);, score=-4.861 total time=  16.8s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-4.570 total time=  52.4s
+[CV 1/5] END activation=relu, hidden_layer_sizes=(50,);, score=-26.186 total time=  24.4s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=7;, score=-25.733 total time= 1.0min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(50,);, score=-0.418 total time=   2.9s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-0.443 total time=   8.7s
+[CV 2/5] END activation=relu, hidden_layer_sizes=(25,);, score=-63.639 total time=  52.0s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-80.331 total time= 2.7min
+[CV 5/5] END activation=relu, hidden_layer_sizes=7;, score=-4.495 total time=  31.4s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-4.907 total time= 1.5min
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-25.495 total time= 1.4min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(50,);, score=-48.668 total time=  24.1s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=7;, score=-36.323 total time= 2.5min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(50,);, score=-0.348 total time=   8.4s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-0.327 total time=  18.2s
+[CV 1/5] END activation=relu, hidden_layer_sizes=(25,);, score=-3.740 total time=   9.7s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=7;, score=-3.565 total time= 1.3min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(13,);, score=-9.210 total time=  30.8s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-7.262 total time= 1.2min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(50,);, score=-0.947 total time=   6.0s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=7;, score=-0.916 total time=  36.1s
+[CV 1/5] END activation=relu, hidden_layer_sizes=(25,);, score=-3.400 total time=  17.9s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-3.439 total time=  52.7s
+[CV 2/5] END activation=relu, hidden_layer_sizes=(13,);, score=-29.068 total time=  48.2s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-668.322 total time= 4.1min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(13,);, score=-0.495 total time=   2.2s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-0.425 total time=   6.3s
+[CV 2/5] END activation=relu, hidden_layer_sizes=(4,);, score=-62.115 total time= 1.4min
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-42.118 total time= 3.4min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(100,);, score=-4.798 total time=  13.4s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=7;, score=-4.931 total time=  22.5s
+[CV 1/5] END activation=relu, hidden_layer_sizes=(4,);, score=-33.481 total time=  33.6s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-23.159 total time=  57.7s
+[CV 4/5] END activation=relu, hidden_layer_sizes=(100,);, score=-0.428 total time=   2.6s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-0.394 total time=  10.1s
+[CV 1/5] END activation=relu, hidden_layer_sizes=(50,);, score=-39.766 total time= 1.1min
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-41.873 total time= 3.3min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(25,);, score=-4.814 total time=  12.5s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=7;, score=-3.751 total time=  37.9s
+[CV 5/5] END activation=relu, hidden_layer_sizes=7;, score=-81.649 total time= 1.5min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(50,);, score=-147.515 total time=  42.0s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-31.523 total time= 2.3min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(50,);, score=-2.012 total time=   8.0s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-0.390 total time=  16.1s
+[CV 3/5] END activation=relu, hidden_layer_sizes=7;, score=-3.403 total time=  25.3s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-52.510 total time= 1.0min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(13,);, score=-9.143 total time=  35.4s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-7.844 total time= 1.2min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(50,);, score=-1.019 total time=   6.5s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=7;, score=-0.885 total time=  34.1s
+[CV 4/5] END activation=relu, hidden_layer_sizes=(13,);, score=-3.823 total time=  29.7s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-3.262 total time= 1.6min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(50,);, score=-18.098 total time=  32.7s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-21.493 total time= 3.6min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(4,);, score=-0.570 total time=   6.9s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-0.383 total time=  14.0s
+[CV 2/5] END activation=relu, hidden_layer_sizes=(100,);, score=-63.185 total time=  31.3s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-204.683 total time= 3.2min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(13,);, score=-3.825 total time=  14.2s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-3.404 total time=  51.5s
+[CV 3/5] END activation=relu, hidden_layer_sizes=(25,);, score=-25.013 total time=  28.4s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-23.174 total time= 1.1min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(50,);, score=-16.499 total time=  27.9s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-13.317 total time= 1.8min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(25,);, score=-36.148 total time=  39.5s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-1003.669 total time= 3.6min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(4,);, score=-50.443 total time=  25.7s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=7;, score=-164.103 total time= 1.8min
+[CV 3/5] END activation=relu, hidden_layer_sizes=7;, score=-0.442 total time=  13.6s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-0.408 total time=  16.9s
+[CV 5/5] END activation=relu, hidden_layer_sizes=(50,);, score=-33.890 total time=  19.5s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-52.745 total time=  51.0s
+[CV 4/5] END activation=relu, hidden_layer_sizes=7;, score=-9.506 total time=  41.2s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-7.026 total time= 1.2min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(50,);, score=-1.281 total time=  16.1s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-0.867 total time=  42.6s
+[CV 4/5] END activation=relu, hidden_layer_sizes=(100,);, score=-3.356 total time=  13.6s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-3.230 total time=  27.2s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-3.312 total time= 1.8min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(100,);, score=-149.114 total time=  57.9s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-21.201 total time= 5.2min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(25,);, score=-0.469 total time=   3.9s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=7;, score=-0.423 total time=   7.7s
+[CV 4/5] END activation=relu, hidden_layer_sizes=7;, score=-46.042 total time= 1.1min
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-50.412 total time= 3.8min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(100,);, score=-5.352 total time=  16.2s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-3.366 total time=  55.3s
+[CV 2/5] END activation=relu, hidden_layer_sizes=(50,);, score=-43.007 total time=  23.0s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=7;, score=-29.610 total time= 1.2min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(50,);, score=-15.060 total time=  27.2s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-29.302 total time= 1.4min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(13,);, score=-34.539 total time=  38.4s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-105.345 total time= 3.9min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(4,);, score=-38.050 total time=  24.6s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=7;, score=-52.456 total time= 2.6min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(50,);, score=-0.354 total time=   6.4s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=7;, score=-0.466 total time=  19.6s
+[CV 4/5] END activation=relu, hidden_layer_sizes=(13,);, score=-3.245 total time=  20.7s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-2.654 total time= 1.7min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(50,);, score=-8.007 total time=  17.4s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=7;, score=-16.657 total time=  53.5s
+[CV 5/5] END activation=relu, hidden_layer_sizes=7;, score=-1.622 total time=  19.7s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-0.969 total time=  50.3s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-11.327 total time=  17.2s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-11.493 total time=  48.3s
+[CV 4/5] END activation=relu, hidden_layer_sizes=7;, score=-18.595 total time= 1.1min
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-667.178 total time= 3.2min
+[CV 2/5] END activation=relu, hidden_layer_sizes=7;, score=-0.479 total time=   7.8s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-0.379 total time=  19.1s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-105.643 total time= 3.3min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(4,);, score=-4.665 total time=  19.8s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-4.976 total time= 1.1min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(100,);, score=-24.753 total time=  17.3s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-26.995 total time= 1.3min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(50,);, score=-46.898 total time=  25.8s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-162.587 total time= 2.0min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(13,);, score=-0.466 total time=   7.5s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=7;, score=-0.409 total time=  15.7s
+[CV 5/5] END activation=relu, hidden_layer_sizes=(4,);, score=-26.310 total time=   9.2s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=7;, score=-2.762 total time= 1.1min
+[CV 5/5] END activation=relu, hidden_layer_sizes=7;, score=-29.974 total time=  39.1s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-7.929 total time=  52.1s
+[CV 1/5] END activation=relu, hidden_layer_sizes=(25,);, score=-0.953 total time=   8.2s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-0.881 total time=  32.5s
+[CV 5/5] END activation=relu, hidden_layer_sizes=(13,);, score=-10.147 total time=  51.7s
+[CV 1/5] END activation=relu, hidden_layer_sizes=(4,);, score=-17.104 total time= 1.1min
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-18.463 total time= 7.1min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(25,);, score=-0.441 total time=   3.0s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=7;, score=-0.437 total time=   9.3s
+[CV 1/5] END activation=relu, hidden_layer_sizes=(13,);, score=-43.939 total time= 1.8min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(4,);, score=-4.513 total time=  17.6s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-3.204 total time=  48.4s
+[CV 4/5] END activation=relu, hidden_layer_sizes=(25,);, score=-24.268 total time=  28.8s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-24.477 total time= 1.1min
+[CV 2/5] END activation=relu, hidden_layer_sizes=7;, score=-22.384 total time=  37.8s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-23.907 total time= 1.8min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(25,);, score=-27.350 total time= 1.1min
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-30.503 total time= 7.0min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(25,);, score=-46.899 total time=  26.3s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-35.905 total time= 2.6min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(50,);, score=-0.405 total time=   7.4s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-0.398 total time=  23.0s
+[CV 1/5] END activation=relu, hidden_layer_sizes=(100,);, score=-3.607 total time=   8.3s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-4.181 total time= 1.4min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(25,);, score=-8.753 total time=  16.9s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=7;, score=-7.712 total time=  31.0s
+[CV 1/5] END activation=relu, hidden_layer_sizes=(4,);, score=-1.072 total time=  25.1s
+[CV 2/5] END activation=relu, hidden_layer_sizes=(4,);, score=-11.438 total time=  29.3s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-3.622 total time= 1.2min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(25,);, score=-142.048 total time=  59.4s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-24.803 total time= 5.1min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(13,);, score=-1.075 total time=   7.5s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-0.430 total time=  15.5s
+[CV 4/5] END activation=relu, hidden_layer_sizes=(100,);, score=-41.474 total time=  36.3s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=7;, score=-88.543 total time= 3.2min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(13,);, score=-5.537 total time=  16.5s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-5.173 total time=  46.9s
+[CV 1/5] END activation=relu, hidden_layer_sizes=(25,);, score=-26.012 total time=  28.5s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-29.662 total time= 1.1min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(100,);, score=-22.074 total time=  18.3s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-12.755 total time= 2.0min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(25,);, score=-30.043 total time=  44.9s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-54.071 total time= 4.0min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(4,);, score=-168.604 total time=  33.8s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-37.824 total time= 3.9min
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-0.486 total time=  19.1s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-0.406 total time=  21.4s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-3.092 total time=  54.1s
+[CV 2/5] END activation=relu, hidden_layer_sizes=7;, score=-12.056 total time=  48.0s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-13.310 total time= 1.7min
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-1.226 total time=  31.5s
+[CV 5/5] END activation=relu, hidden_layer_sizes=(4,);, score=-7.413 total time= 1.3min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(25,);, score=-18.573 total time=  42.6s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-40.221 total time= 3.2min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(4,);, score=-0.563 total time=   7.6s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-0.400 total time=  11.9s
+[CV 1/5] END activation=relu, hidden_layer_sizes=(100,);, score=-41.680 total time=  33.2s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=7;, score=-59.371 total time= 2.9min
+[CV 3/5] END activation=relu, hidden_layer_sizes=7;, score=-5.641 total time=  22.3s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-3.031 total time=  54.5s
+[CV 3/5] END activation=relu, hidden_layer_sizes=(50,);, score=-27.352 total time=  21.8s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=7;, score=-24.150 total time= 1.3min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(25,);, score=-143.561 total time=  43.4s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-162.468 total time= 2.7min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(100,);, score=-0.353 total time=   6.6s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=7;, score=-0.420 total time=  19.5s
+[CV 5/5] END activation=relu, hidden_layer_sizes=(13,);, score=-42.074 total time=  26.0s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-2.721 total time=  25.2s
+[CV 1/5] END activation=relu, hidden_layer_sizes=7;, score=-8.366 total time=  36.0s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-12.974 total time= 1.5min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(100,);, score=-0.892 total time=   9.2s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-1.008 total time=  30.9s
+[CV 2/5] END activation=relu, hidden_layer_sizes=(13,);, score=-11.351 total time=  18.7s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-3.195 total time=  50.5s
+[CV 5/5] END activation=relu, hidden_layer_sizes=7;, score=-71.807 total time= 1.0min
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-32.051 total time= 7.1min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(25,);, score=-0.479 total time=   4.8s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-0.428 total time=   7.3s
+[CV 5/5] END activation=relu, hidden_layer_sizes=7;, score=-46.146 total time= 1.0min
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-61.581 total time= 1.5min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(4,);, score=-6.077 total time=  25.9s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-2.874 total time= 1.2min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(100,);, score=-24.561 total time=  18.5s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-26.110 total time= 1.4min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(25,);, score=-15.318 total time=  30.8s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-28.032 total time= 1.3min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(13,);, score=-47.713 total time=  48.8s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-1000.458 total time= 3.8min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(4,);, score=-30.564 total time=  24.7s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=7;, score=-36.939 total time= 2.3min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(25,);, score=-0.374 total time=   7.9s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-0.434 total time=  21.5s
+[CV 2/5] END activation=relu, hidden_layer_sizes=(50,);, score=-3.229 total time=   9.9s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=7;, score=-4.620 total time= 2.4min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(100,);, score=-65.811 total time=  52.4s
+[CV 4/5] END activation=relu, hidden_layer_sizes=(4,);, score=-1.105 total time=  10.3s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-1.170 total time=  32.6s
+[CV 2/5] END activation=relu, hidden_layer_sizes=(25,);, score=-11.643 total time=  17.6s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-3.362 total time=  57.3s
+[CV 5/5] END activation=relu, hidden_layer_sizes=(13,);, score=-77.426 total time=  37.6s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-18.175 total time= 3.6min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(4,);, score=-2.931 total time=   3.9s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=7;, score=-0.416 total time=   6.9s
+[CV 2/5] END activation=relu, hidden_layer_sizes=7;, score=-68.726 total time= 1.0min
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-51.206 total time= 3.5min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(50,);, score=-5.434 total time=  11.9s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-4.112 total time=  20.8s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-2.926 total time= 1.0min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(100,);, score=-38.105 total time=  18.1s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-26.871 total time= 1.4min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(100,);, score=-0.554 total time=   4.2s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-0.424 total time=  10.2s
+[CV 3/5] END activation=relu, hidden_layer_sizes=(50,);, score=-56.536 total time=  30.3s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-86.888 total time= 2.8min
+[CV 2/5] END activation=relu, hidden_layer_sizes=7;, score=-5.925 total time=  15.7s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-3.234 total time=  48.3s
+[CV 2/5] END activation=relu, hidden_layer_sizes=(25,);, score=-39.117 total time=  39.1s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-22.776 total time= 1.0min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(100,);, score=-35.358 total time=  31.4s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-50.637 total time= 2.4min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(25,);, score=-0.414 total time=   6.0s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-0.492 total time=  18.8s
+[CV 5/5] END activation=relu, hidden_layer_sizes=7;, score=-31.934 total time=  29.5s
+[CV 2/5] END activation=relu, hidden_layer_sizes=(4,);, score=-16.094 total time=  41.9s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-15.443 total time= 1.6min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(100,);, score=-2.846 total time=  10.5s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-0.839 total time=  26.1s
+[CV 4/5] END activation=relu, hidden_layer_sizes=7;, score=-3.652 total time=  59.5s
+[CV 1/5] END activation=relu, hidden_layer_sizes=7;, score=-18.155 total time=  53.2s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-36.200 total time= 5.1min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(13,);, score=-0.444 total time=   4.2s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-0.449 total time=   8.2s
+[CV 2/5] END activation=relu, hidden_layer_sizes=(13,);, score=-66.601 total time=  48.0s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=7;, score=-198.677 total time= 3.1min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(13,);, score=-5.081 total time=  12.5s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=7;, score=-3.747 total time=  40.7s
+[CV 2/5] END activation=relu, hidden_layer_sizes=(13,);, score=-36.331 total time=  33.7s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-23.509 total time= 1.1min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(13,);, score=-28.210 total time=  30.3s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-11.424 total time= 1.5min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(13,);, score=-30.343 total time=  49.2s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-46.431 total time= 5.2min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(13,);, score=-47.597 total time=  26.0s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-53.099 total time= 2.5min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(25,);, score=-1.862 total time=  11.6s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-0.337 total time=  17.9s
+[CV 4/5] END activation=relu, hidden_layer_sizes=(50,);, score=-3.090 total time=   9.7s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=7;, score=-3.215 total time= 1.2min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(13,);, score=-8.629 total time=  29.4s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-16.264 total time=  21.4s
+[CV 2/5] END activation=relu, hidden_layer_sizes=(4,);, score=-1.548 total time=  12.7s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-0.770 total time=  36.4s
+[CV 4/5] END activation=relu, hidden_layer_sizes=(50,);, score=-3.514 total time=  12.4s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-3.646 total time=  40.2s
+[CV 2/5] END activation=relu, hidden_layer_sizes=(4,);, score=-33.537 total time= 1.0min
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-21.311 total time= 7.1min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(25,);, score=-0.430 total time=   3.7s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=7;, score=-0.453 total time=   9.0s
+[CV 4/5] END activation=relu, hidden_layer_sizes=(13,);, score=-44.422 total time= 1.2min
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-46.692 total time= 3.4min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(100,);, score=-3.522 total time=   9.4s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-5.263 total time=  27.3s
+[CV 2/5] END activation=relu, hidden_layer_sizes=(4,);, score=-40.765 total time=  36.2s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-21.967 total time= 1.1min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(50,);, score=-17.989 total time=  24.6s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=7;, score=-23.178 total time= 1.2min
+[CV 1/5] END activation=relu, hidden_layer_sizes=7;, score=-39.751 total time=  48.4s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-89.789 total time= 4.0min
+[CV 1/5] END activation=relu, hidden_layer_sizes=7;, score=-47.624 total time=  34.8s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-34.249 total time= 3.5min
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-0.568 total time=  23.2s
+[CV 1/5] END activation=relu, hidden_layer_sizes=7;, score=-3.867 total time=  23.9s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-2.753 total time=  26.9s
+[CV 5/5] END activation=relu, hidden_layer_sizes=(4,);, score=-36.355 total time=  29.8s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-8.460 total time=  43.1s
+[CV 1/5] END activation=relu, hidden_layer_sizes=(13,);, score=-0.966 total time=   8.7s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-0.831 total time=  31.8s
+[CV 3/5] END activation=relu, hidden_layer_sizes=(13,);, score=-6.176 total time=  22.6s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-11.379 total time=  51.0s
+[CV 4/5] END activation=relu, hidden_layer_sizes=(13,);, score=-17.658 total time=  42.9s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-20.839 total time= 4.1min
+[CV 5/5] END activation=relu, hidden_layer_sizes=7;, score=-1.081 total time=  11.6s
+[CV 3/5] END activation=relu, hidden_layer_sizes=7;, score=-60.018 total time= 1.8min
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-213.319 total time= 3.6min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(100,);, score=-3.280 total time=  31.3s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-4.294 total time= 1.6min
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-30.758 total time= 1.7min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(100,);, score=-46.872 total time=  21.6s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-165.137 total time= 1.9min
+[CV 5/5] END activation=relu, hidden_layer_sizes=7;, score=-5.387 total time=  16.3s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-0.300 total time=  14.2s
+[CV 2/5] END activation=relu, hidden_layer_sizes=(100,);, score=-3.012 total time=  12.6s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-3.790 total time= 1.5min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(25,);, score=-49.144 total time=  43.0s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-7.581 total time= 1.4min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(100,);, score=-1.030 total time=   3.6s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-0.919 total time=  36.0s
+[CV 1/5] END activation=relu, hidden_layer_sizes=(13,);, score=-3.575 total time=  24.8s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-3.768 total time= 1.1min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(25,);, score=-18.473 total time=  32.6s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-46.669 total time= 3.4min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(4,);, score=-0.719 total time=   5.0s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-0.384 total time=   9.7s
+[CV 5/5] END activation=relu, hidden_layer_sizes=(25,);, score=-103.491 total time= 1.6min
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-48.288 total time= 2.4min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(13,);, score=-6.972 total time=  37.0s
+[CV 3/5] END activation=relu, hidden_layer_sizes=(4,);, score=-29.608 total time=  38.2s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-22.545 total time= 1.1min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(100,);, score=-0.423 total time=   2.6s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-0.403 total time=   9.3s
+[CV 4/5] END activation=relu, hidden_layer_sizes=(25,);, score=-42.466 total time= 1.1min
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-61.177 total time= 3.5min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(50,);, score=-5.076 total time=  17.7s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-2.962 total time= 1.1min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(50,);, score=-24.126 total time=  24.3s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=7;, score=-25.622 total time= 1.3min
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-0.465 total time=   6.7s
+[CV 3/5] END activation=relu, hidden_layer_sizes=(4,);, score=-53.266 total time= 1.3min
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-34.269 total time= 3.2min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(50,);, score=-4.786 total time=  13.4s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=7;, score=-3.580 total time=  39.0s
+[CV 1/5] END activation=relu, hidden_layer_sizes=(13,);, score=-30.558 total time=  40.5s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-22.813 total time= 1.1min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(100,);, score=-0.444 total time=   4.1s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-0.398 total time=   7.5s
+[CV 3/5] END activation=relu, hidden_layer_sizes=(25,);, score=-56.941 total time=  56.6s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-68.243 total time= 3.5min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(25,);, score=-12.943 total time=  37.6s
+[CV 4/5] END activation=relu, hidden_layer_sizes=(4,);, score=-26.419 total time=  36.8s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-29.786 total time= 1.1min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(25,);, score=-22.507 total time=  26.4s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=7;, score=-36.279 total time= 1.5min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(13,);, score=-37.541 total time=  44.1s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-141.632 total time= 4.2min
+[CV 4/5] END activation=relu, hidden_layer_sizes=7;, score=-26.461 total time=  41.8s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-36.633 total time= 3.1min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(100,);, score=-0.532 total time=   7.7s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-0.355 total time=  20.1s
+[CV 5/5] END activation=relu, hidden_layer_sizes=(25,);, score=-34.900 total time=  18.0s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-3.620 total time= 1.6min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(50,);, score=-9.201 total time=  15.3s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-16.677 total time=  58.8s
+[CV 2/5] END activation=relu, hidden_layer_sizes=(13,);, score=-1.303 total time=  12.2s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-1.115 total time=  32.4s
+[CV 5/5] END activation=relu, hidden_layer_sizes=(25,);, score=-20.569 total time=  43.5s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-11.109 total time= 1.1min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(50,);, score=-17.557 total time=  30.3s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=7;, score=-51.753 total time= 3.4min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(4,);, score=-0.529 total time=   8.1s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-0.400 total time=  14.7s
+[CV 3/5] END activation=relu, hidden_layer_sizes=(100,);, score=-58.591 total time=  24.6s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-102.082 total time= 3.0min
+[CV 4/5] END activation=relu, hidden_layer_sizes=7;, score=-5.092 total time=  20.1s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-4.303 total time= 1.3min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(100,);, score=-24.876 total time=  25.6s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=7;, score=-24.015 total time= 1.4min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(50,);, score=-0.457 total time=   5.1s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-0.377 total time=  10.6s
+[CV 4/5] END activation=relu, hidden_layer_sizes=(50,);, score=-37.801 total time= 1.2min
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-207.226 total time= 3.3min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(50,);, score=-3.416 total time=  14.7s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-5.305 total time=  44.3s
+[CV 4/5] END activation=relu, hidden_layer_sizes=(13,);, score=-24.622 total time=  40.6s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-21.362 total time= 1.2min
+[CV 3/5] END activation=relu, hidden_layer_sizes=7;, score=-17.143 total time=  43.8s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-12.874 total time= 1.8min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(50,);, score=-45.489 total time=  35.9s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-67.419 total time= 3.9min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(4,);, score=-46.221 total time=  26.2s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-36.825 total time= 1.4min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(4,);, score=-0.473 total time=  21.6s
+[CV 1/5] END activation=relu, hidden_layer_sizes=(4,);, score=-4.453 total time=  25.8s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-2.588 total time= 1.1min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(13,);, score=-62.050 total time=  51.1s
+[CV 3/5] END activation=relu, hidden_layer_sizes=(4,);, score=-1.037 total time=  24.1s
+[CV 1/5] END activation=relu, hidden_layer_sizes=(4,);, score=-4.878 total time= 1.5min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(25,);, score=-17.487 total time=  43.5s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-16.749 total time= 3.9min
+[CV 4/5] END activation=relu, hidden_layer_sizes=7;, score=-0.427 total time=  10.1s
+[CV 5/5] END activation=relu, hidden_layer_sizes=(4,);, score=-29.268 total time= 1.3min
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-217.933 total time= 3.2min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(50,);, score=-3.842 total time=  40.3s
+[CV 5/5] END activation=relu, hidden_layer_sizes=(4,);, score=-113.779 total time=  40.9s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-22.215 total time= 1.4min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(50,);, score=-0.471 total time=   1.9s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=7;, score=-0.408 total time=   6.3s
+[CV 1/5] END activation=relu, hidden_layer_sizes=7;, score=-42.418 total time= 1.8min
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-33.513 total time= 3.9min
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-3.994 total time=  48.3s
+[CV 3/5] END activation=relu, hidden_layer_sizes=7;, score=-26.332 total time=  41.0s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-21.539 total time= 1.4min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(100,);, score=-26.959 total time=  28.1s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-34.544 total time= 2.9min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(100,);, score=-0.350 total time=   7.2s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=7;, score=-0.500 total time=  18.3s
+[CV 1/5] END activation=relu, hidden_layer_sizes=(13,);, score=-4.045 total time=  17.6s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-3.125 total time= 1.4min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(50,);, score=-8.941 total time=  17.3s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=7;, score=-10.027 total time= 1.2min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(25,);, score=-1.263 total time=   8.0s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=7;, score=-1.231 total time=  35.4s
+[CV 3/5] END activation=relu, hidden_layer_sizes=(25,);, score=-6.858 total time=  22.2s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-3.249 total time= 1.6min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(50,);, score=-17.896 total time=  38.3s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-44.110 total time= 3.6min
+[CV 1/5] END activation=relu, hidden_layer_sizes=7;, score=-0.465 total time=  12.7s
+[CV 3/5] END activation=relu, hidden_layer_sizes=(13,);, score=-61.378 total time=  43.6s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=7;, score=-70.786 total time= 2.6min
+[CV 1/5] END activation=relu, hidden_layer_sizes=7;, score=-3.929 total time=  27.2s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-3.104 total time= 1.4min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(100,);, score=-120.651 total time=  44.9s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-21.421 total time= 1.4min
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-55.633 total time= 2.2min
+[CV 1/5] END activation=relu, hidden_layer_sizes=7;, score=-0.467 total time=  13.2s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-0.320 total time=  16.2s
+[CV 3/5] END activation=relu, hidden_layer_sizes=(50,);, score=-3.256 total time=  10.7s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-3.456 total time= 2.2min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(100,);, score=-9.234 total time=  16.2s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=7;, score=-16.513 total time=  45.0s
+[CV 2/5] END activation=relu, hidden_layer_sizes=7;, score=-1.245 total time=  16.0s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-1.160 total time=  40.1s
+[CV 3/5] END activation=relu, hidden_layer_sizes=(100,);, score=-6.042 total time=  14.6s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=7;, score=-3.513 total time=  39.9s
+[CV 3/5] END activation=relu, hidden_layer_sizes=(4,);, score=-24.625 total time= 1.0min
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-668.011 total time= 3.3min
+[CV 3/5] END activation=relu, hidden_layer_sizes=7;, score=-0.440 total time=   6.4s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-0.433 total time=  12.2s
+[CV 5/5] END activation=relu, hidden_layer_sizes=(50,);, score=-121.379 total time= 1.3min
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-42.842 total time= 4.1min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(100,);, score=-4.688 total time=  14.7s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-3.509 total time=  38.9s
+[CV 3/5] END activation=relu, hidden_layer_sizes=(13,);, score=-26.477 total time=  40.7s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-29.099 total time= 1.5min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(50,);, score=-0.424 total time=   3.0s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-0.385 total time=  11.0s
+[CV 2/5] END activation=relu, hidden_layer_sizes=(50,);, score=-61.730 total time=  37.0s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=7;, score=-90.648 total time= 3.1min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(13,);, score=-5.221 total time=   9.1s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-5.854 total time=  36.5s
+[CV 1/5] END activation=relu, hidden_layer_sizes=7;, score=-28.576 total time=  50.0s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-20.240 total time= 1.8min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(100,);, score=-33.333 total time= 1.0min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(4,);, score=-38.606 total time= 1.3min
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-979.572 total time= 3.6min
+[CV 2/5] END activation=relu, hidden_layer_sizes=7;, score=-49.041 total time=  38.0s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-47.172 total time= 2.1min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(25,);, score=-0.364 total time=   6.3s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-0.440 total time=  17.6s
+[CV 2/5] END activation=relu, hidden_layer_sizes=7;, score=-3.712 total time=  27.5s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-52.199 total time= 1.1min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(25,);, score=-9.481 total time=  18.7s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-8.218 total time=  29.1s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-6.902 total time=  52.2s
+[CV 1/5] END activation=relu, hidden_layer_sizes=(50,);, score=-0.964 total time=   8.2s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-1.225 total time=  26.6s
+[CV 3/5] END activation=relu, hidden_layer_sizes=7;, score=-8.014 total time= 1.2min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(13,);, score=-19.100 total time=  45.0s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-35.330 total time= 4.2min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(13,);, score=-0.501 total time=   2.2s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-0.422 total time=   5.2s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-0.421 total time=  18.1s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-79.148 total time= 3.2min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(4,);, score=-5.633 total time=  15.5s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-4.670 total time=  47.3s
+[CV 5/5] END activation=relu, hidden_layer_sizes=(13,);, score=-53.959 total time=  52.2s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-29.848 total time= 2.0min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(25,);, score=-18.028 total time=  23.0s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=7;, score=-32.205 total time= 1.3min
+[CV 3/5] END activation=relu, hidden_layer_sizes=7;, score=-41.402 total time=  54.5s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-971.205 total time= 5.2min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(13,);, score=-26.541 total time=  51.1s
+[CV 1/5] END activation=relu, hidden_layer_sizes=(4,);, score=-0.529 total time=  17.7s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-0.293 total time=  16.7s
+[CV 4/5] END activation=relu, hidden_layer_sizes=(100,);, score=-3.137 total time=   8.4s
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-52.619 total time=  20.0s
+[CV 1/5] END activation=relu, hidden_layer_sizes=(4,);, score=-10.353 total time=  39.4s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-7.437 total time= 1.3min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(100,);, score=-1.230 total time=   6.4s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=7;, score=-1.257 total time=  26.8s
+[CV 1/5] END activation=relu, hidden_layer_sizes=7;, score=-3.706 total time=  32.3s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-3.463 total time= 1.6min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(50,);, score=-169.143 total time= 1.1min
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-22.118 total time= 7.1min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(25,);, score=-1.518 total time=   8.6s
+[CV 4/5] END activation=relu, hidden_layer_sizes=(4,);, score=-41.173 total time= 1.3min
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-54.699 total time= 4.8min
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-3.933 total time=  49.8s
+[CV 4/5] END activation=relu, hidden_layer_sizes=7;, score=-25.113 total time=  59.3s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-21.163 total time= 2.0min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(50,);, score=-0.484 total time=   2.0s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-0.432 total time=   9.1s
+[CV 5/5] END activation=relu, hidden_layer_sizes=(13,);, score=-43.262 total time= 2.4min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(4,);, score=-9.353 total time=  13.4s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=7;, score=-5.639 total time=  32.6s
+[CV 2/5] END activation=relu, hidden_layer_sizes=7;, score=-34.945 total time=  53.1s
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-21.125 total time= 2.4min
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-0.452 total time=   5.9s
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-0.382 total time=  15.8s
+[CV 5/5] END activation=relu, hidden_layer_sizes=(100,);, score=-109.908 total time=  50.9s
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-45.884 total time= 3.2min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(25,);, score=-3.433 total time=  18.6s
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-3.174 total time= 1.1min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(50,);, score=-99.934 total time= 1.1min
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-21.354 total time= 2.3min
+Training SO4-Diss-Water (SULPHATE) (mg/L) Result model ...
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+Training Si-Diss-Water (SILICON) (mg/L) Result model ...
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+Training TAL-Diss-Water (TOTAL ALKALINITY AS CALCIUM CARBONATE) (mg/L) Result model ...
+Fitting 5 folds for each of 12 candidates, totalling 60 fits

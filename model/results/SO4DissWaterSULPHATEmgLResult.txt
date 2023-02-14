@@ -1,0 +1,4 @@
+Target: SO4-Diss-Water (SULPHATE) (mg/L) Result
+Optimised Hyper-Parameters: {'activation': 'relu', 'hidden_layer_sizes': 7}
+Evaluation Metrics: {'coef_det': -50.75907093310748, 'rmse': 50.75907093310748, 'rmsle': 3.9270903395484122, 'mmre': 0.6731334538618143, 'pred25': 0.5787106446776612}
+####################################################################################################

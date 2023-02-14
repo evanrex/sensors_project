@@ -1,0 +1,4 @@
+Target: K-Diss-Water (POTASSIUM) (mg/L) Result
+Optimised Hyper-Parameters: {'activation': 'relu', 'hidden_layer_sizes': (4,)}
+Evaluation Metrics: {'coef_det': -7.396312282793484, 'rmse': 7.396312282793483, 'rmsle': 2.0009815358343537, 'mmre': 1.0974207002238168, 'pred25': 0.5170539730134932}
+####################################################################################################

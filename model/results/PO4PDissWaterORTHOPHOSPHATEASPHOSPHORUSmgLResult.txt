@@ -1,0 +1,4 @@
+Target: PO4-P-Diss-Water (ORTHO PHOSPHATE AS PHOSPHORUS) (mg/L) Result
+Optimised Hyper-Parameters: {'activation': 'tanh', 'hidden_layer_sizes': (100,)}
+Evaluation Metrics: {'coef_det': -0.3760541780213773, 'rmse': 0.3760541780213773, 'rmsle': -0.9780220554898925, 'mmre': 4.62183046191946, 'pred25': 0.13024737631184408}
+####################################################################################################

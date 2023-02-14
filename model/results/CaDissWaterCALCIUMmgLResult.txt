@@ -1,0 +1,4 @@
+Target: Ca-Diss-Water (CALCIUM) (mg/L) Result
+Optimised Hyper-Parameters: {'activation': 'tanh', 'hidden_layer_sizes': (50,)}
+Evaluation Metrics: {'coef_det': -16.918338152902404, 'rmse': 16.9183381529024, 'rmsle': 2.8283981314408124, 'mmre': 0.14874818534919465, 'pred25': 0.886431784107946}
+####################################################################################################

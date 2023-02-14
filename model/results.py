@@ -1,0 +1,142 @@
+import pandas as pd
+import numpy as np
+from sklearn.neural_network import MLPRegressor
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error, mean_absolute_percentage_error
+from sklearn.model_selection import GridSearchCV
+from sklearn.model_selection import cross_val_score
+from matplotlib import pyplot as plt
+import pickle
+import os
+
+import argparse
+
+parser = argparse.ArgumentParser(description="Results of River Sensor Model Experiments")
+
+#########################
+#### data parameters ####
+#########################
+parser.add_argument("--data_path", type=str, default="/home-mscluster/erex/sensors_project/data/river_sensor_data.csv",
+                    help="path to dataset repository")
+
+parser.add_argument("--experiments_path", type=str, default="/home-mscluster/erex/sensors_project/model/experiments",
+                    help="path to experiment saving directories")
+
+parser.add_argument("--results_path", type=str, default="/home-mscluster/erex/sensors_project/model/results",
+                    help="path to results saving directory")
+
+def is_saving_dir(dir):
+    path = str(dir)
+    directory = path.split('/')[-1]
+    if directory.startswith("saving_dir"):
+        return True
+    else: return False
+
+def get_experiment_id(saving_dir):
+    path = str(saving_dir)
+    directory = path.split('/')[-1]
+    last_char = directory[-1]
+    experiment_id = int(last_char)
+    return experiment_id
+
+
+def get_experiments(EXPERIMENTS_PATH):
+    rootdir = EXPERIMENTS_PATH
+    experiments = []
+
+    for subdir, dirs, files in os.walk(rootdir):
+        if is_saving_dir(subdir):
+            experiment = {}
+            experiment["id"] = get_experiment_id(subdir)
+            for file in files:
+                path  = os.path.join(subdir, file)
+                with open(path, 'rb') as pickle_file:
+                    if file.startswith("evaluations"):
+                        experiment['evaluations']  = pickle.load(pickle_file)
+                    if file.startswith("models"):
+                        experiment['models']  = pickle.load(pickle_file)
+            for key in experiment['evaluations'].keys():
+                experiment['evaluations'][key]['rmse'] = np.exp(experiment['evaluations'][key]['rmsle'])  # There was an error in main.py, this resolves it
+            
+            experiments.append(experiment)
+    return experiments
+
+def get_median_target_experiment(target, experiments):
+    target_experiments = []
+    for i in range(len(experiments)):
+        target_experiment = {
+            "id":experiments[i]["id"],
+            "evaluations":experiments[i]["evaluations"][target],
+            "models":experiments[i]["models"][target]
+            }
+
+        target_experiments.append(target_experiment)
+
+    sorted_target_experiments = sorted(target_experiments, key=lambda d: d['evaluations']['rmse']) 
+    median_target_experiment = sorted_target_experiments[int(len(sorted_target_experiments)//2)]
+    return median_target_experiment
+
+def filenameify(s):
+    return "".join(x for x in s if x.isalnum())
+
+def histogram(RESULTS_SAVING_PATH, target, errors):
+    
+    fig = plt.figure(figsize =(10, 7))
+    
+    counts, bins = np.histogram(np.abs(errors),bins=100)
+    plt.stairs(counts, bins)
+
+    plt.title("{} Error Histogram".format(target))
+        
+    save_path = RESULTS_SAVING_PATH+'/'+filenameify(target)+'.png'
+    
+    plt.savefig(save_path, bbox_inches='tight')
+
+def main():
+    print("Starting Main")
+    args = parser.parse_args()
+    EXPERIMENTS_PATH = args.experiments_path
+    DATA_PATH = args.data_path
+    RESULTS_SAVING_PATH = args.results_path
+
+    df = pd.read_csv(DATA_PATH)
+
+    targets = df.columns.to_list()
+
+    experiments = get_experiments(EXPERIMENTS_PATH)
+    
+    best_rmse = None
+    best_target=None
+
+    for target in targets:
+        median_target_experiment = get_median_target_experiment(target, experiments)
+        
+        evaluation_metrics = {key: median_target_experiment["evaluations"][key] for key in median_target_experiment["evaluations"] if key != 'errors'}
+        
+        if best_rmse is None:
+            best_rmse = evaluation_metrics['rmse']
+            best_target = target
+        elif best_rmse >= evaluation_metrics['rmse']:
+            best_rmse = evaluation_metrics['rmse']
+            best_target = target
+            
+        save_path = RESULTS_SAVING_PATH+'/'+filenameify(target)+'.txt'
+    
+        with open(save_path, "a") as f:
+            print("Target:",target, file=f)
+            print("Optimised Hyper-Parameters:",median_target_experiment["models"].best_params_, file=f)
+            print("Evaluation Metrics:",evaluation_metrics, file=f)
+            print("####################################################################################################", file=f)
+        
+        errors = median_target_experiment["evaluations"]['errors']
+        histogram(RESULTS_SAVING_PATH, target, errors)
+        
+    with open(RESULTS_SAVING_PATH+'/best_target.txt', "a") as f:
+        print("Best target:", best_target, file=f)
+        print("rmse:", best_rmse, file=f)
+    
+              
+
+
+if __name__ == "__main__":
+    main()

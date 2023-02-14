@@ -1,0 +1,4 @@
+Target: Mg-Diss-Water (MAGNESIUM) (mg/L) Result
+Optimised Hyper-Parameters: {'activation': 'tanh', 'hidden_layer_sizes': (100,)}
+Evaluation Metrics: {'coef_det': -8.343191500411946, 'rmse': 8.343191500411946, 'rmsle': 2.121445817079974, 'mmre': 0.18053113692827677, 'pred25': 0.8898050974512743}
+####################################################################################################
