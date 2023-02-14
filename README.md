@@ -1,4 +1,4 @@
-# sensors_project
+# Riveer Sensors ML Research
 
 Research into the efficacy of using ML regression techniques to predict the output of water quality sensors.
 
