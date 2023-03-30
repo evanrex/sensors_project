@@ -40,9 +40,9 @@ def test_pickle(model_dict,pickled_models_dict,eval_dict,pickled_eval_dict, df,r
         X = normalized_features.to_numpy()
         y = labels.to_numpy()
         X_train, X_test, y_train, y_test = train_test_split(X, y,random_state=random_state)
-
-        assert all(model_dict[target].predict(X_test) == pickled_models_dict[target].predict(X_test))
-        assert all(model_dict[target].predict(X_train) == pickled_models_dict[target].predict(X_train))
+        for architecture in model_dict[target].keys():
+            assert all(model_dict[target][architecture].predict(X_test) == pickled_models_dict[target][architecture].predict(X_test))
+            assert all(model_dict[target][architecture].predict(X_train) == pickled_models_dict[target][architecture].predict(X_train))
     print('Pickled Tests Passed')
 
 def hyper_optimise_mlp(X_tr,y_tr,random_state = 1):
