@@ -1,6 +1,10 @@
 import pandas as pd
 import numpy as np
 from sklearn.neural_network import MLPRegressor
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.gaussian_process import GaussianProcessRegressor
+from sklearn.gaussian_process.kernels import RBF, DotProduct
+from sklearn.linear_model import Lasso
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, mean_absolute_percentage_error
 from sklearn.model_selection import GridSearchCV
@@ -41,12 +45,81 @@ def test_pickle(model_dict,pickled_models_dict,eval_dict,pickled_eval_dict, df,r
         assert all(model_dict[target].predict(X_train) == pickled_models_dict[target].predict(X_train))
     print('Pickled Tests Passed')
 
-def hyper_optimise(X_tr,y_tr,random_state = 1):
+def hyper_optimise_mlp(X_tr,y_tr,random_state = 1):
     estimator = MLPRegressor(random_state=random_state, max_iter=5000)
     
     param_grid = {'hidden_layer_sizes': [(4,),(7),(13,),(25,),(50,),(100,)],
             'activation': ['relu','tanh'],
             }
+
+    gsc = GridSearchCV(
+        estimator,
+        param_grid,
+        cv=5, scoring='neg_root_mean_squared_error', verbose=3, n_jobs=-1)
+
+    grid_result = gsc.fit(X_tr, y_tr)
+
+    return gsc
+
+def hyper_optimise_rf(X_tr,y_tr,random_state = 1):
+    estimator = RandomForestRegressor(random_state=random_state, max_iter=5000)
+
+    # Number of trees in random forest
+    n_estimators = [int(x) for x in np.linspace(start = 200, stop = 2000, num = 10)]
+    # Number of features to consider at every split
+    max_features = ['auto', 'sqrt']
+    # Maximum number of levels in tree
+    max_depth = [int(x) for x in np.linspace(10, 110, num = 11)]
+    max_depth.append(None)
+    # Minimum number of samples required to split a node
+    min_samples_split = [2, 5, 10]
+    # Minimum number of samples required at each leaf node
+    min_samples_leaf = [1, 2, 4]
+    # Method of selecting samples for training each tree
+    bootstrap = [True, False]
+    # Create the random grid
+    param_grid = {'n_estimators': n_estimators,
+                'max_features': max_features,
+                'max_depth': max_depth,
+                'min_samples_split': min_samples_split,
+                'min_samples_leaf': min_samples_leaf,
+                'bootstrap': bootstrap}
+
+    gsc = GridSearchCV(
+        estimator,
+        param_grid,
+        cv=5, scoring='neg_root_mean_squared_error', verbose=3, n_jobs=-1)
+
+    grid_result = gsc.fit(X_tr, y_tr)
+
+    return gsc
+
+def hyper_optimise_gpr(X_tr,y_tr,random_state = 1):
+    estimator = GaussianProcessRegressor(random_state=random_state, max_iter=5000)
+    
+    param_grid = [{
+        "alpha":  [1e-2, 1e-3],
+        "kernel": [RBF(l) for l in np.logspace(-1, 1, 2)]
+    }, {
+        "alpha":  [1e-2, 1e-3],
+        "kernel": [DotProduct(sigma_0) for sigma_0 in np.logspace(-1, 1, 2)]
+    }]
+
+    gsc = GridSearchCV(
+        estimator,
+        param_grid,
+        cv=5, scoring='neg_root_mean_squared_error', verbose=3, n_jobs=-1)
+
+    grid_result = gsc.fit(X_tr, y_tr)
+
+    return gsc
+
+def hyper_optimise_lasso(X_tr,y_tr,random_state = 1):
+    estimator = Lasso(random_state=random_state, max_iter=5000)
+    
+    param_grid = {
+        "alpha":  np.arange(0, 1, 0.01),
+    }
 
     gsc = GridSearchCV(
         estimator,
@@ -92,10 +165,29 @@ def train_all_models(df,random_state=1):
         X = normalized_features.to_numpy()
         y = labels.to_numpy()
         X_train, X_test, y_train, y_test = train_test_split(X, y,random_state=random_state)
-
-        models[target] = hyper_optimise(X_train,y_train,random_state=random_state)
-
-        evaluations[target] = evaluate(models[target], X_test,y_test)
+        
+        architectures = {}
+        architecture_evaluations = {}
+        
+        mlp_regressor = hyper_optimise_mlp(X_train,y_train,random_state=random_state)
+        architectures['MLPRegressor'] = mlp_regressor
+        architecture_evaluations['MLPRegressor'] = evaluate(mlp_regressor, X_test,y_test)
+        
+        rf_regressor = hyper_optimise_rf(X_train,y_train,random_state=random_state)
+        architectures['RFRegressor'] = rf_regressor
+        architecture_evaluations['RFRegressor'] = evaluate(rf_regressor, X_test,y_test)
+        
+        gp_regressor = hyper_optimise_gpr(X_train,y_train,random_state=random_state)
+        architectures['GPRegressor'] = gp_regressor
+        architecture_evaluations['GPRegressor'] = evaluate(gp_regressor, X_test,y_test)
+        
+        lasso_regressor = hyper_optimise_lasso(X_train,y_train,random_state=random_state)
+        architectures['LassoRegressor'] = lasso_regressor
+        architecture_evaluations['LassoRegressor'] = evaluate(lasso_regressor, X_test,y_test)
+        
+        
+        models[target] = architectures
+        evaluations[target] = architecture_evaluations
     return models,evaluations
 
 def main():
