@@ -62,7 +62,7 @@ def hyper_optimise_mlp(X_tr,y_tr,random_state = 1):
     return gsc
 
 def hyper_optimise_rf(X_tr,y_tr,random_state = 1):
-    estimator = RandomForestRegressor(random_state=random_state, max_iter=5000)
+    estimator = RandomForestRegressor(random_state=random_state)
 
     # Number of trees in random forest
     n_estimators = [int(x) for x in np.linspace(start = 200, stop = 2000, num = 10)]
