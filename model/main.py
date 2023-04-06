@@ -64,26 +64,14 @@ def hyper_optimise_mlp(X_tr,y_tr,random_state = 1):
 def hyper_optimise_rf(X_tr,y_tr,random_state = 1):
     estimator = RandomForestRegressor(random_state=random_state)
 
-    # Number of trees in random forest
-    n_estimators = [int(x) for x in np.linspace(start = 200, stop = 2000, num = 10)]
-    # Number of features to consider at every split
-    max_features = ['auto', 'sqrt']
-    # Maximum number of levels in tree
-    max_depth = [int(x) for x in np.linspace(10, 110, num = 11)]
-    max_depth.append(None)
-    # Minimum number of samples required to split a node
-    min_samples_split = [2, 5, 10]
-    # Minimum number of samples required at each leaf node
-    min_samples_leaf = [1, 2, 4]
-    # Method of selecting samples for training each tree
-    bootstrap = [True, False]
-    # Create the random grid
-    param_grid = {'n_estimators': n_estimators,
-                'max_features': max_features,
-                'max_depth': max_depth,
-                'min_samples_split': min_samples_split,
-                'min_samples_leaf': min_samples_leaf,
-                'bootstrap': bootstrap}
+    param_grid = {
+        'n_estimators': [25, 100, 500],
+        'max_features': ['sqrt', None],
+        'max_depth': [10, 100, None],
+        # 'min_samples_leaf' : [1, 2, 4],
+        # 'min_samples_split' : [2, 5, 10],
+        # 'bootstrap' : [True, False]
+    }
 
     gsc = GridSearchCV(
         estimator,
