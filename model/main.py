@@ -83,7 +83,7 @@ def hyper_optimise_rf(X_tr,y_tr,random_state = 1):
     return gsc
 
 def hyper_optimise_gpr(X_tr,y_tr,random_state = 1):
-    estimator = GaussianProcessRegressor(random_state=random_state, max_iter=5000)
+    estimator = GaussianProcessRegressor(random_state=random_state)
     
     param_grid = [{
         "alpha":  [1e-2, 1e-3],
