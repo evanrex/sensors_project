@@ -1,0 +1,287 @@
+running job: 3
+Starting Main
+Using random state: 3
+Loaded Data
+Starting Experiments
+Training Unnamed: 0 model ...
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 3/5] END activation=relu, hidden_layer_sizes=(50,);, score=-5191.069 total time=16.5min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(50,);, score=-5810.990 total time=16.7min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(50,);, score=-5544.659 total time=17.1min
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 1/5] END activation=relu, hidden_layer_sizes=(4,);, score=-5825.472 total time= 8.9min
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-8796.604 total time=10.8min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(4,);, score=-6008.352 total time= 9.0min
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-9270.421 total time=10.8min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(4,);, score=-6549.330 total time= 9.2min
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-9026.713 total time=10.8min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(100,);, score=-6056.607 total time=20.1min
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 3/5] END activation=relu, hidden_layer_sizes=(13,);, score=-5338.848 total time=10.1min
+[CV 4/5] END activation=tanh, hidden_layer_sizes=7;, score=-8591.232 total time=12.9min
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 3/5] END activation=relu, hidden_layer_sizes=(4,);, score=-5775.979 total time= 9.3min
+[CV 1/5] END activation=tanh, hidden_layer_sizes=7;, score=-8183.672 total time=13.9min
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 5/5] END activation=relu, hidden_layer_sizes=(4,);, score=-9278.073 total time= 9.4min
+[CV 2/5] END activation=tanh, hidden_layer_sizes=7;, score=-8414.456 total time=14.3min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(13,);, score=-5437.302 total time= 9.9min
+[CV 3/5] END activation=tanh, hidden_layer_sizes=7;, score=-8124.289 total time=13.8min
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 5/5] END activation=relu, hidden_layer_sizes=(13,);, score=-5930.512 total time=10.2min
+[CV 5/5] END activation=tanh, hidden_layer_sizes=7;, score=-8348.264 total time=13.7min
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 1/5] END activation=relu, hidden_layer_sizes=(25,);, score=-5329.722 total time=11.1min
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-6994.765 total time=14.1min
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-9092.204 total time=11.1min
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-7054.437 total time=14.2min
+[CV 4/5] END activation=relu, hidden_layer_sizes=7;, score=-5596.010 total time=11.3min
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-7198.453 total time=14.1min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(25,);, score=-5259.382 total time=11.1min
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-7264.601 total time=14.5min
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(4,);, score=-8852.597 total time=11.2min
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(13,);, score=-7435.033 total time=14.7min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(25,);, score=-5981.247 total time=12.5min
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-6040.690 total time=13.8min
+[CV 5/5] END activation=relu, hidden_layer_sizes=(25,);, score=-6161.116 total time=13.1min
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-5716.099 total time=13.9min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(25,);, score=-5328.838 total time=12.6min
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-5994.799 total time=15.5min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(13,);, score=-5475.835 total time=11.9min
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-5812.816 total time=16.3min
+[CV 5/5] END activation=relu, hidden_layer_sizes=7;, score=-5756.429 total time=11.7min
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-6187.797 total time=17.0min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(13,);, score=-5872.076 total time=11.9min
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-6301.824 total time=17.0min
+[CV 1/5] END activation=relu, hidden_layer_sizes=7;, score=-5536.082 total time=11.7min
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-6032.410 total time=17.2min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(50,);, score=-5209.406 total time=13.1min
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(50,);, score=-6238.332 total time=15.9min
+[CV 3/5] END activation=relu, hidden_layer_sizes=7;, score=-5453.751 total time=11.6min
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-6034.443 total time=18.1min
+[CV 2/5] END activation=relu, hidden_layer_sizes=7;, score=-5742.266 total time=11.9min
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(25,);, score=-6116.020 total time=18.1min
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 4/5] END activation=relu, hidden_layer_sizes=(100,);, score=-5091.951 total time=16.3min
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-5634.061 total time=19.4min
+[CV 1/5] END activation=relu, hidden_layer_sizes=(100,);, score=-5104.237 total time=16.2min
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-5753.362 total time=19.8min
+[CV 4/5] END activation=relu, hidden_layer_sizes=(50,);, score=-5248.241 total time=15.1min
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-5761.548 total time=21.0min
+[CV 3/5] END activation=relu, hidden_layer_sizes=(100,);, score=-5024.783 total time=16.4min
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-5767.822 total time=19.9min
+[CV 2/5] END activation=relu, hidden_layer_sizes=(100,);, score=-5762.108 total time=16.3min
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(100,);, score=-6066.295 total time=20.5min
+/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (5000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home-mscluster/erex/sensors_project/model/main.py:122: RuntimeWarning: divide by zero encountered in true_divide
+  perc = np.abs(y_true-y_pred)/y_true
+Fitting 5 folds for each of 18 candidates, totalling 90 fits
+[CV 3/5] END max_depth=10, max_features=sqrt, n_estimators=25;, score=-3891.160 total time=   2.1s
+[CV 5/5] END max_depth=100, max_features=sqrt, n_estimators=25;, score=-3489.514 total time=   3.7s
+[CV 1/5] END max_depth=100, max_features=sqrt, n_estimators=500;, score=-3374.147 total time= 1.2min
+[CV 2/5] END max_depth=10, max_features=None, n_estimators=25;, score=-3986.657 total time=   7.7s
+[CV 5/5] END max_depth=100, max_features=sqrt, n_estimators=500;, score=-3357.813 total time= 1.2min
+[CV 2/5] END max_depth=10, max_features=sqrt, n_estimators=25;, score=-4092.081 total time=   2.0s
+[CV 4/5] END max_depth=100, max_features=sqrt, n_estimators=25;, score=-3527.841 total time=   3.8s
+[CV 2/5] END max_depth=100, max_features=sqrt, n_estimators=500;, score=-3497.237 total time= 1.2min
+[CV 5/5] END max_depth=10, max_features=None, n_estimators=25;, score=-3743.747 total time=   7.7s
+[CV 3/5] END max_depth=100, max_features=sqrt, n_estimators=500;, score=-3415.184 total time= 1.2min
+[CV 3/5] END max_depth=10, max_features=None, n_estimators=25;, score=-3739.203 total time=   7.7s
+[CV 4/5] END max_depth=100, max_features=sqrt, n_estimators=500;, score=-3424.189 total time= 1.2min
+[CV 4/5] END max_depth=10, max_features=None, n_estimators=100;, score=-3782.646 total time=  30.8s
+[CV 1/5] END max_depth=None, max_features=sqrt, n_estimators=500;, score=-3374.147 total time= 1.2min
+[CV 5/5] END max_depth=10, max_features=sqrt, n_estimators=100;, score=-3912.020 total time=   8.2s
+[CV 3/5] END max_depth=100, max_features=None, n_estimators=25;, score=-3500.229 total time=  13.5s
+[CV 1/5] END max_depth=None, max_features=sqrt, n_estimators=25;, score=-3448.166 total time=   3.7s
+[CV 3/5] END max_depth=None, max_features=sqrt, n_estimators=25;, score=-3461.944 total time=   3.7s
+[CV 5/5] END max_depth=None, max_features=sqrt, n_estimators=25;, score=-3489.514 total time=   3.7s
+[CV 2/5] END max_depth=None, max_features=sqrt, n_estimators=500;, score=-3497.237 total time= 1.2min
+[CV 5/5] END max_depth=10, max_features=sqrt, n_estimators=500;, score=-3881.890 total time=  40.7s
+[CV 5/5] END max_depth=None, max_features=sqrt, n_estimators=500;, score=-3357.813 total time= 1.2min
+[CV 3/5] END max_depth=10, max_features=sqrt, n_estimators=500;, score=-3899.685 total time=  40.7s
+[CV 4/5] END max_depth=None, max_features=sqrt, n_estimators=500;, score=-3424.189 total time= 1.2min
+[CV 2/5] END max_depth=10, max_features=sqrt, n_estimators=500;, score=-4018.529 total time=  40.6s
+[CV 3/5] END max_depth=None, max_features=sqrt, n_estimators=500;, score=-3415.184 total time= 1.2min
+[CV 2/5] END max_depth=100, max_features=sqrt, n_estimators=25;, score=-3594.267 total time=   3.8s
+[CV 4/5] END max_depth=100, max_features=sqrt, n_estimators=100;, score=-3430.691 total time=  15.1s
+[CV 1/5] END max_depth=100, max_features=None, n_estimators=500;, score=-3387.453 total time= 3.3min
+[CV 4/5] END max_depth=10, max_features=None, n_estimators=25;, score=-3803.903 total time=   7.7s
+[CV 2/5] END max_depth=100, max_features=None, n_estimators=25;, score=-3685.869 total time=  13.7s
+[CV 4/5] END max_depth=100, max_features=None, n_estimators=500;, score=-3450.263 total time= 3.3min
+[CV 2/5] END max_depth=10, max_features=sqrt, n_estimators=100;, score=-4040.719 total time=   8.2s
+[CV 4/5] END max_depth=100, max_features=None, n_estimators=25;, score=-3586.226 total time=  13.4s
+[CV 5/5] END max_depth=100, max_features=None, n_estimators=500;, score=-3414.848 total time= 3.3min
+[CV 1/5] END max_depth=10, max_features=None, n_estimators=25;, score=-3745.722 total time=   7.7s
+[CV 1/5] END max_depth=100, max_features=None, n_estimators=25;, score=-3474.286 total time=  13.4s
+[CV 3/5] END max_depth=100, max_features=None, n_estimators=500;, score=-3433.366 total time= 3.4min
+[CV 1/5] END max_depth=10, max_features=sqrt, n_estimators=25;, score=-3950.558 total time=   2.1s
+[CV 3/5] END max_depth=100, max_features=sqrt, n_estimators=25;, score=-3461.944 total time=   3.7s
+[CV 5/5] END max_depth=100, max_features=sqrt, n_estimators=100;, score=-3390.934 total time=  15.0s
+[CV 2/5] END max_depth=100, max_features=None, n_estimators=500;, score=-3566.238 total time= 3.4min
+[CV 4/5] END max_depth=10, max_features=sqrt, n_estimators=100;, score=-3981.909 total time=   8.2s
+[CV 2/5] END max_depth=100, max_features=None, n_estimators=100;, score=-3578.138 total time=  54.6s
+[CV 4/5] END max_depth=None, max_features=None, n_estimators=500;, score=-3450.263 total time= 3.0min
+[CV 1/5] END max_depth=10, max_features=None, n_estimators=100;, score=-3727.209 total time=  30.5s
+[CV 2/5] END max_depth=None, max_features=sqrt, n_estimators=100;, score=-3531.218 total time=  15.0s
+[CV 5/5] END max_depth=None, max_features=None, n_estimators=25;, score=-3513.720 total time=  13.3s
+[CV 2/5] END max_depth=None, max_features=None, n_estimators=500;, score=-3566.238 total time= 3.1min
+[CV 3/5] END max_depth=10, max_features=None, n_estimators=100;, score=-3724.934 total time=  30.6s
+[CV 3/5] END max_depth=None, max_features=sqrt, n_estimators=100;, score=-3410.588 total time=  14.8s
+[CV 4/5] END max_depth=None, max_features=None, n_estimators=25;, score=-3586.226 total time=  13.3s
+[CV 1/5] END max_depth=None, max_features=None, n_estimators=500;, score=-3387.453 total time= 3.2min
+[CV 3/5] END max_depth=10, max_features=sqrt, n_estimators=100;, score=-3893.091 total time=   8.2s
+[CV 1/5] END max_depth=100, max_features=None, n_estimators=100;, score=-3408.834 total time=  53.6s
+[CV 3/5] END max_depth=None, max_features=None, n_estimators=500;, score=-3433.366 total time= 3.2min
+[CV 5/5] END max_depth=10, max_features=sqrt, n_estimators=25;, score=-3958.090 total time=   2.1s
+[CV 1/5] END max_depth=100, max_features=sqrt, n_estimators=100;, score=-3382.159 total time=  15.0s
+[CV 3/5] END max_depth=100, max_features=None, n_estimators=100;, score=-3435.414 total time=  53.8s
+[CV 5/5] END max_depth=None, max_features=None, n_estimators=500;, score=-3414.848 total time= 3.1min
+/home-mscluster/erex/sensors_project/model/main.py:122: RuntimeWarning: divide by zero encountered in true_divide
+  perc = np.abs(y_true-y_pred)/y_true
+Fitting 5 folds for each of 8 candidates, totalling 40 fits
+Traceback (most recent call last):
+  File "/home-mscluster/erex/anaconda3/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home-mscluster/erex/anaconda3/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home-mscluster/erex/sensors_project/model/main.py", line 214, in <module>
+    main()
+  File "/home-mscluster/erex/sensors_project/model/main.py", line 194, in main
+    models, evaluations = train_all_models(df,random_state=random_state)
+  File "/home-mscluster/erex/sensors_project/model/main.py", line 168, in train_all_models
+    gp_regressor = hyper_optimise_gpr(X_train,y_train,random_state=random_state)
+  File "/home-mscluster/erex/sensors_project/model/main.py", line 101, in hyper_optimise_gpr
+    grid_result = gsc.fit(X_tr, y_tr)
+  File "/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/model_selection/_search.py", line 891, in fit
+    self._run_search(evaluate_candidates)
+  File "/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/model_selection/_search.py", line 1392, in _run_search
+    evaluate_candidates(ParameterGrid(self.param_grid))
+  File "/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/sklearn/model_selection/_search.py", line 838, in evaluate_candidates
+    out = parallel(
+  File "/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/joblib/parallel.py", line 1056, in __call__
+    self.retrieve()
+  File "/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/joblib/parallel.py", line 935, in retrieve
+    self._output.extend(job.get(timeout=self.timeout))
+  File "/home-mscluster/erex/anaconda3/lib/python3.9/site-packages/joblib/_parallel_backends.py", line 542, in wrap_future_result
+    return future.result(timeout=timeout)
+  File "/home-mscluster/erex/anaconda3/lib/python3.9/concurrent/futures/_base.py", line 446, in result
+    return self.__get_result()
+  File "/home-mscluster/erex/anaconda3/lib/python3.9/concurrent/futures/_base.py", line 391, in __get_result
+    raise self._exception
+joblib.externals.loky.process_executor.TerminatedWorkerError: A worker process managed by the executor was unexpectedly terminated. This could be caused by a segmentation fault while calling the function or by an excessive memory usage causing the Operating System to kill the worker.
+
+The exit codes of the workers are {SIGKILL(-9), SIGKILL(-9), SIGKILL(-9)}
