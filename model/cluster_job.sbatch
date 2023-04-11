@@ -4,7 +4,7 @@
 #SBATCH --time=72:00:00
 #SBATCH --partition=stampede
 #SBATCH --output=/home-mscluster/erex/sensors_project/model/experiments/result-%A-%a.out
-#SBATCH --array=1-5 # job array index
+#SBATCH --array=1-10 # job array index
 
 echo "running job: "${SLURM_ARRAY_TASK_ID}
 mkdir -p /home-mscluster/erex/sensors_project/model/experiments/saving_dir${SLURM_ARRAY_TASK_ID}
