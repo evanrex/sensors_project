@@ -28,6 +28,11 @@ parser.add_argument("--saving_dir", type=str, default=".",
 parser.add_argument("--random_state", type=str, default=1,
                     help="random state for experiment" )
 
+parser.add_argument("--architecture", type=str, default=1,
+                    help="Architecture for experiment. One of [MLP, RF, GP, LASSO]" )
+
+
+
 def test_pickle(model_dict,pickled_models_dict,eval_dict,pickled_eval_dict, df,random_state=1):
     assert eval_dict == pickled_eval_dict
     targets = df.columns.to_list()
@@ -139,7 +144,7 @@ def evaluate(estimator, X_test,y_test):
     return evaluation
 
 
-def train_all_models(df,random_state=1):
+def train_all_models(df,architecture,random_state=1):
     models = {}
     evaluations = {}
     targets = df.columns.to_list()
@@ -157,22 +162,24 @@ def train_all_models(df,random_state=1):
         architectures = {}
         architecture_evaluations = {}
         
-        mlp_regressor = hyper_optimise_mlp(X_train,y_train,random_state=random_state)
-        architectures['MLPRegressor'] = mlp_regressor
-        architecture_evaluations['MLPRegressor'] = evaluate(mlp_regressor, X_test,y_test)
-        
-        rf_regressor = hyper_optimise_rf(X_train,y_train,random_state=random_state)
-        architectures['RFRegressor'] = rf_regressor
-        architecture_evaluations['RFRegressor'] = evaluate(rf_regressor, X_test,y_test)
-        
-        gp_regressor = hyper_optimise_gpr(X_train,y_train,random_state=random_state)
-        architectures['GPRegressor'] = gp_regressor
-        architecture_evaluations['GPRegressor'] = evaluate(gp_regressor, X_test,y_test)
-        
-        lasso_regressor = hyper_optimise_lasso(X_train,y_train,random_state=random_state)
-        architectures['LassoRegressor'] = lasso_regressor
-        architecture_evaluations['LassoRegressor'] = evaluate(lasso_regressor, X_test,y_test)
-        
+        if architecture == "MLP":
+            mlp_regressor = hyper_optimise_mlp(X_train,y_train,random_state=random_state)
+            architectures['MLPRegressor'] = mlp_regressor
+            architecture_evaluations['MLPRegressor'] = evaluate(mlp_regressor, X_test,y_test)
+        elif architecture == "RF":
+            rf_regressor = hyper_optimise_rf(X_train,y_train,random_state=random_state)
+            architectures['RFRegressor'] = rf_regressor
+            architecture_evaluations['RFRegressor'] = evaluate(rf_regressor, X_test,y_test)
+        elif architecture == "GP":
+            gp_regressor = hyper_optimise_gpr(X_train,y_train,random_state=random_state)
+            architectures['GPRegressor'] = gp_regressor
+            architecture_evaluations['GPRegressor'] = evaluate(gp_regressor, X_test,y_test)
+        elif architecture == "LASSO":
+            lasso_regressor = hyper_optimise_lasso(X_train,y_train,random_state=random_state)
+            architectures['LassoRegressor'] = lasso_regressor
+            architecture_evaluations['LassoRegressor'] = evaluate(lasso_regressor, X_test,y_test)
+        else:
+            raise Exception("Architecture must be one of [MLP, RF, GP, LASSO]. Instead received architecture: {}".format(architecture))
         
         models[target] = architectures
         evaluations[target] = architecture_evaluations
@@ -184,17 +191,19 @@ def main():
     DATA_PATH = args.data_path
     SAVING_DIR = args.saving_dir
     random_state = int(args.random_state)
+    architecture = args.architecture
     print("Using random state:",random_state)
+    print("Training architecture:",architecture)
 
     df = pd.read_csv(DATA_PATH)
 
     
     print("Loaded Data")
     print("Starting Experiments")
-    models, evaluations = train_all_models(df,random_state=random_state)
+    models, evaluations = train_all_models(df, architecture, random_state=random_state)
 
-    models_path = SAVING_DIR +'/models.pickle'
-    evaluations_path = SAVING_DIR + '/evaluations.pickle'
+    models_path = SAVING_DIR +'/{}_models.pickle'.format(architecture)
+    evaluations_path = SAVING_DIR + '/{}_evaluations.pickle'.format(architecture)
 
     with open(models_path, 'wb') as handle:
         pickle.dump(models, handle, protocol=pickle.HIGHEST_PROTOCOL)
