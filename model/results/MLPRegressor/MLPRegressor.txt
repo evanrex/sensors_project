@@ -1,0 +1,72 @@
+Experiments Results for MLPRegressor architecture
+####################################################################################################
+Target: Unnamed: 0
+Optimised Hyper-Parameters for median model: {'activation': 'relu', 'hidden_layer_sizes': (100,)}
+Median Evaluation Metrics: {'coef_det': -5239.940358044395, 'rmse': 5239.940358044395, 'rmsle': 8.564065395197716, 'mmre': 5829077408690754.0, 'pred25': 0.29966266866566715}
+Mean RMSE 5246.890631496973
+####################################################################################################
+Target: Ca-Diss-Water (CALCIUM) (mg/L) Result
+Optimised Hyper-Parameters for median model: {'activation': 'tanh', 'hidden_layer_sizes': (50,)}
+Median Evaluation Metrics: {'coef_det': -16.200030303998876, 'rmse': 16.200030303998876, 'rmsle': 2.7850131128538034, 'mmre': 0.1537544152165539, 'pred25': 0.8928035982008995}
+Mean RMSE 19.18748980284616
+####################################################################################################
+Target: Cl-Diss-Water (CHLORIDE) (mg/L) Result
+Optimised Hyper-Parameters for median model: {'activation': 'relu', 'hidden_layer_sizes': (4,)}
+Median Evaluation Metrics: {'coef_det': -36.153706085533756, 'rmse': 36.153706085533756, 'rmsle': 3.587779463005145, 'mmre': 0.6967197321483973, 'pred25': 0.5026236881559221}
+Mean RMSE 35.94870377510176
+####################################################################################################
+Target: EC-Phys-Water (ELECTRICAL CONDUCTIVITY) (mS/m) Result
+Optimised Hyper-Parameters for median model: {'activation': 'relu', 'hidden_layer_sizes': (13,)}
+Median Evaluation Metrics: {'coef_det': -39.248222129557305, 'rmse': 39.248222129557305, 'rmsle': 3.6699061471402854, 'mmre': 0.13315586769318175, 'pred25': 0.9510869565217391}
+Mean RMSE 37.64646782273017
+####################################################################################################
+Target: F-Diss-Water (FLUORIDE) (mg/L) Result
+Optimised Hyper-Parameters for median model: {'activation': 'tanh', 'hidden_layer_sizes': (100,)}
+Median Evaluation Metrics: {'coef_det': -0.367395816350831, 'rmse': 0.367395816350831, 'rmsle': -1.0013154934438693, 'mmre': 0.5954682376913704, 'pred25': 0.4917541229385307}
+Mean RMSE 0.3581744591835576
+####################################################################################################
+Target: K-Diss-Water (POTASSIUM) (mg/L) Result
+Optimised Hyper-Parameters for median model: {'activation': 'relu', 'hidden_layer_sizes': (4,)}
+Median Evaluation Metrics: {'coef_det': -4.653476312070811, 'rmse': 4.653476312070811, 'rmsle': 1.537614534283796, 'mmre': 0.8985849982830174, 'pred25': 0.5474137931034483}
+Mean RMSE 8.93786843362047
+####################################################################################################
+Target: Mg-Diss-Water (MAGNESIUM) (mg/L) Result
+Optimised Hyper-Parameters for median model: {'activation': 'tanh', 'hidden_layer_sizes': (100,)}
+Median Evaluation Metrics: {'coef_det': -8.843582114982055, 'rmse': 8.843582114982055, 'rmsle': 2.179692011198396, 'mmre': 0.16285798189943693, 'pred25': 0.892616191904048}
+Mean RMSE 8.928786096648665
+####################################################################################################
+Target: NH4-N-Diss-Water (AMMONIUM NITROGEN) (mg/L) Result
+Optimised Hyper-Parameters for median model: {'activation': 'tanh', 'hidden_layer_sizes': (100,)}
+Median Evaluation Metrics: {'coef_det': -1.015085651253016, 'rmse': 1.015085651253016, 'rmsle': 0.014972994404448789, 'mmre': 7.049363775574851, 'pred25': 0.06409295352323838}
+Mean RMSE 0.9588093922895802
+####################################################################################################
+Target: NO3+NO2-N-Diss-Water (NITRATE + NITRITE NITROGEN) (mg/L) Result
+Optimised Hyper-Parameters for median model: {'activation': 'relu', 'hidden_layer_sizes': 7}
+Median Evaluation Metrics: {'coef_det': -6.461488514959146, 'rmse': 6.461488514959146, 'rmsle': 1.8658597115241504, 'mmre': 13.754208884445333, 'pred25': 0.1373688155922039}
+Mean RMSE 5.722230286745741
+####################################################################################################
+Target: Na-Diss-Water (SODIUM) (mg/L) Result
+Optimised Hyper-Parameters for median model: {'activation': 'relu', 'hidden_layer_sizes': (4,)}
+Median Evaluation Metrics: {'coef_det': -22.493434730480804, 'rmse': 22.493434730480804, 'rmsle': 3.113223476875052, 'mmre': 0.3779463489369348, 'pred25': 0.6789730134932533}
+Mean RMSE 34.00359168822389
+####################################################################################################
+Target: PO4-P-Diss-Water (ORTHO PHOSPHATE AS PHOSPHORUS) (mg/L) Result
+Optimised Hyper-Parameters for median model: {'activation': 'tanh', 'hidden_layer_sizes': (100,)}
+Median Evaluation Metrics: {'coef_det': -0.37583160339070104, 'rmse': 0.37583160339070104, 'rmsle': -0.9786140992355784, 'mmre': 4.631538891903361, 'pred25': 0.12874812593703147}
+Mean RMSE 0.3796419513186946
+####################################################################################################
+Target: SO4-Diss-Water (SULPHATE) (mg/L) Result
+Optimised Hyper-Parameters for median model: {'activation': 'relu', 'hidden_layer_sizes': 7}
+Median Evaluation Metrics: {'coef_det': -50.759070933107466, 'rmse': 50.759070933107466, 'rmsle': 3.927090339548412, 'mmre': 0.673133453861814, 'pred25': 0.5787106446776612}
+Mean RMSE 50.67902034993039
+####################################################################################################
+Target: Si-Diss-Water (SILICON) (mg/L) Result
+Optimised Hyper-Parameters for median model: {'activation': 'tanh', 'hidden_layer_sizes': (100,)}
+Median Evaluation Metrics: {'coef_det': -3.034467524345695, 'rmse': 3.034467524345695, 'rmsle': 1.1100359640930526, 'mmre': 1.006340419926413, 'pred25': 0.45221139430284857}
+Mean RMSE 3.3207366526059454
+####################################################################################################
+Target: TAL-Diss-Water (TOTAL ALKALINITY AS CALCIUM CARBONATE) (mg/L) Result
+Optimised Hyper-Parameters for median model: {'activation': 'tanh', 'hidden_layer_sizes': (100,)}
+Median Evaluation Metrics: {'coef_det': -23.095083311726576, 'rmse': 23.095083311726576, 'rmsle': 3.1396197512251236, 'mmre': 0.12577315238878328, 'pred25': 0.9563343328335832}
+Mean RMSE 22.76996087312076
+####################################################################################################

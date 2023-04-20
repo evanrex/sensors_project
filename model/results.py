@@ -1,10 +1,11 @@
 import pandas as pd
 import numpy as np
-from sklearn.neural_network import MLPRegressor
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_squared_error, mean_absolute_percentage_error
-from sklearn.model_selection import GridSearchCV
-from sklearn.model_selection import cross_val_score
+import sklearn
+# from sklearn.neural_network import MLPRegressor
+# from sklearn.model_selection import train_test_split
+# from sklearn.metrics import mean_squared_error, mean_absolute_percentage_error
+# from sklearn.model_selection import GridSearchCV
+# from sklearn.model_selection import cross_val_score
 from matplotlib import pyplot as plt
 import pickle
 import os
@@ -25,10 +26,10 @@ parser.add_argument("--experiments_path", type=str, default="/home-mscluster/ere
 parser.add_argument("--results_path", type=str, default="/home-mscluster/erex/sensors_project/model/results",
                     help="path to results saving directory")
 
-def is_saving_dir(dir):
-    path = str(dir)
-    directory = path.split('/')[-1]
-    if directory.startswith("saving_dir"):
+def is_saving_dir(directory):
+    directory = str(directory)
+    # directory = directory.split('/')[-1]
+    if "saving_dir" in directory:
         return True
     else: return False
 
@@ -38,7 +39,6 @@ def get_experiment_id(saving_dir):
     last_char = directory[-1]
     experiment_id = int(last_char)
     return experiment_id
-
 
 def get_experiments(EXPERIMENTS_PATH):
     rootdir = EXPERIMENTS_PATH
@@ -51,23 +51,28 @@ def get_experiments(EXPERIMENTS_PATH):
             for file in files:
                 path  = os.path.join(subdir, file)
                 with open(path, 'rb') as pickle_file:
-                    if file.startswith("evaluations"):
+                    if file.endswith("evaluations.pickle"):
                         experiment['evaluations']  = pickle.load(pickle_file)
-                    if file.startswith("models"):
+                    elif file.endswith("models.pickle"):
                         experiment['models']  = pickle.load(pickle_file)
-            for key in experiment['evaluations'].keys():
-                experiment['evaluations'][key]['rmse'] = np.exp(experiment['evaluations'][key]['rmsle'])  # There was an error in main.py, this resolves it
+                    # else:
+                    #     print('unacceptable file',file)
+            # for key in experiment['evaluations'].keys():
+            #     experiment['evaluations'][key]['rmse'] = np.exp(experiment['evaluations'][key]['rmsle'])  # There was an error in main.py, this resolves it
             
             experiments.append(experiment)
-    return experiments
+            architecture = list(experiment['models'][list(experiment['models'].keys())[0]].keys())[0]
+        # else:
+        #     print('not a savingdir',subdir)
+    return experiments, architecture
 
-def get_median_target_experiment(target, experiments):
-    target_experiments = []
+def get_median_target_experiment(target, experiments, architecture):
+    target_experiments = [] 
     for i in range(len(experiments)):
         target_experiment = {
             "id":experiments[i]["id"],
-            "evaluations":experiments[i]["evaluations"][target],
-            "models":experiments[i]["models"][target]
+            "evaluations":experiments[i]["evaluations"][target][architecture],
+            "models":experiments[i]["models"][target][architecture]
             }
 
         target_experiments.append(target_experiment)
@@ -75,6 +80,14 @@ def get_median_target_experiment(target, experiments):
     sorted_target_experiments = sorted(target_experiments, key=lambda d: d['evaluations']['rmse']) 
     median_target_experiment = sorted_target_experiments[int(len(sorted_target_experiments)//2)]
     return median_target_experiment
+
+def get_mean_rmse(target,experiments,architecture):
+    rmse_sum = 0.0
+    for i in range(len(experiments)):
+        rmse_sum += experiments[i]["evaluations"][target][architecture]['rmse']
+
+    rmse_avg = rmse_sum/len(experiments)
+    return rmse_avg
 
 def filenameify(s):
     return "".join(x for x in s if x.isalnum())
@@ -103,29 +116,36 @@ def main():
 
     targets = df.columns.to_list()
 
-    experiments = get_experiments(EXPERIMENTS_PATH)
+    experiments, architecture = get_experiments(EXPERIMENTS_PATH)
     
     best_rmse = None
     best_target=None
-
+    
+    save_path = RESULTS_SAVING_PATH+'/'+architecture+'.txt'
+    
+    with open(save_path, "w") as f:
+        print("Experiments Results for {} architecture".format(architecture), file=f)
+        print("####################################################################################################", file=f)
+    
     for target in targets:
-        median_target_experiment = get_median_target_experiment(target, experiments)
+        median_target_experiment = get_median_target_experiment(target, experiments, architecture)
         
-        evaluation_metrics = {key: median_target_experiment["evaluations"][key] for key in median_target_experiment["evaluations"] if key != 'errors'}
-        
+        median_evaluation_metrics = {key: median_target_experiment["evaluations"][key] for key in median_target_experiment["evaluations"] if key != 'errors'}
+        mean_rmse = get_mean_rmse(target,experiments,architecture)
+        # find out which target we perform best for
         if best_rmse is None:
-            best_rmse = evaluation_metrics['rmse']
+            best_rmse = mean_rmse
             best_target = target
-        elif best_rmse >= evaluation_metrics['rmse']:
-            best_rmse = evaluation_metrics['rmse']
+        elif best_rmse >= mean_rmse:
+            best_rmse = mean_rmse
             best_target = target
             
-        save_path = RESULTS_SAVING_PATH+'/'+filenameify(target)+'.txt'
-    
+        
         with open(save_path, "a") as f:
             print("Target:",target, file=f)
-            print("Optimised Hyper-Parameters:",median_target_experiment["models"].best_params_, file=f)
-            print("Evaluation Metrics:",evaluation_metrics, file=f)
+            print("Optimised Hyper-Parameters for median model:",median_target_experiment["models"].best_params_, file=f)
+            print("Median Evaluation Metrics:",median_evaluation_metrics, file=f)
+            print("Mean RMSE",mean_rmse, file=f)
             print("####################################################################################################", file=f)
         
         errors = median_target_experiment["evaluations"]['errors']
@@ -135,7 +155,7 @@ def main():
         print("Best target:", best_target, file=f)
         print("rmse:", best_rmse, file=f)
     
-              
+
 
 
 if __name__ == "__main__":

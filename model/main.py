@@ -131,13 +131,13 @@ def evaluate(estimator, X_test,y_test):
     y_predicted = estimator.predict(X_test)
     rmse = mean_squared_error(y_test, y_predicted, squared=False)
     coef_det = estimator.score(X_test, y_test)
-    rmsle = np.log(rmse)
+    # rmsle = np.log(rmse)
     pred_25 = pred25(y_test, y_predicted)
     mmre = mean_absolute_percentage_error(y_test, y_predicted)
     evaluation = {}
     evaluation['coef_det'] = coef_det
     evaluation['rmse'] = rmse
-    evaluation['rmsle'] = rmsle
+    # evaluation['rmsle'] = rmsle
     evaluation['mmre'] = mmre
     evaluation['pred25'] = pred_25
     evaluation['errors'] = y_test - y_predicted
@@ -217,7 +217,7 @@ def main():
     with open(evaluations_path, 'rb') as handle:
         evaluations_load = pickle.load(handle)
 
-    test_pickle(models,models_load,evaluations,evaluations_load, df,random_state=random_state)
+    # test_pickle(models,models_load,evaluations,evaluations_load, df,random_state=random_state)
 
 if __name__ == "__main__":
     main()
