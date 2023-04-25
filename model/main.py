@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 from sklearn.neural_network import MLPRegressor
 from sklearn.ensemble import RandomForestRegressor
+from sklearn.neighbors import KNeighborsRegressor
 from sklearn.gaussian_process import GaussianProcessRegressor
 from sklearn.gaussian_process.kernels import RBF, DotProduct
 from sklearn.linear_model import Lasso
@@ -13,6 +14,7 @@ from matplotlib import pyplot as plt
 import pickle
 import argparse
 
+from constants import SUPPORTED_ARCHITECTURES
 
 parser = argparse.ArgumentParser(description="Implementation of River Sensor Model")
 
@@ -29,7 +31,7 @@ parser.add_argument("--random_state", type=str, default=1,
                     help="random state for experiment" )
 
 parser.add_argument("--architecture", type=str, default=1,
-                    help="Architecture for experiment. One of [MLP, RF, GP, LASSO]" )
+                    help="Architecture for experiment. One of [MLP, RF, KNN, LASSO]" )
 
 
 
@@ -87,6 +89,26 @@ def hyper_optimise_rf(X_tr,y_tr,random_state = 1):
 
     return gsc
 
+def hyper_optimise_knn(X_tr,y_tr,random_state = 1):
+    
+    estimator = KNeighborsRegressor()
+    param_grid = {
+        "n_neighbors": [3,5,11,19,29],
+        "weights": ['uniform', 'distance'],
+        "p": [1,2,3]
+    } 
+    
+
+
+    gsc = GridSearchCV(
+        estimator,
+        param_grid,
+        cv=5, scoring='neg_root_mean_squared_error', verbose=3, n_jobs=-1)
+
+    grid_result = gsc.fit(X_tr, y_tr)
+
+    return gsc
+
 def hyper_optimise_gpr(X_tr,y_tr,random_state = 1):
     estimator = GaussianProcessRegressor(random_state=random_state)
     
@@ -122,6 +144,8 @@ def hyper_optimise_lasso(X_tr,y_tr,random_state = 1):
     grid_result = gsc.fit(X_tr, y_tr)
 
     return gsc
+
+
 
 def pred25(y_true, y_pred):
     perc = np.abs(y_true-y_pred)/y_true
@@ -170,16 +194,20 @@ def train_all_models(df,architecture,random_state=1):
             rf_regressor = hyper_optimise_rf(X_train,y_train,random_state=random_state)
             architectures['RFRegressor'] = rf_regressor
             architecture_evaluations['RFRegressor'] = evaluate(rf_regressor, X_test,y_test)
-        elif architecture == "GP":
-            gp_regressor = hyper_optimise_gpr(X_train,y_train,random_state=random_state)
-            architectures['GPRegressor'] = gp_regressor
-            architecture_evaluations['GPRegressor'] = evaluate(gp_regressor, X_test,y_test)
+        elif architecture == "KNN":
+            knn_regressor = hyper_optimise_knn(X_train,y_train,random_state=random_state)
+            architectures['KNNRegressor'] = knn_regressor
+            architecture_evaluations['KNNRegressor'] = evaluate(knn_regressor, X_test,y_test)
+        # elif architecture == "GP":
+        #     gp_regressor = hyper_optimise_gpr(X_train,y_train,random_state=random_state)
+        #     architectures['GPRegressor'] = gp_regressor
+        #     architecture_evaluations['GPRegressor'] = evaluate(gp_regressor, X_test,y_test)
         elif architecture == "LASSO":
             lasso_regressor = hyper_optimise_lasso(X_train,y_train,random_state=random_state)
             architectures['LassoRegressor'] = lasso_regressor
             architecture_evaluations['LassoRegressor'] = evaluate(lasso_regressor, X_test,y_test)
         else:
-            raise Exception("Architecture must be one of [MLP, RF, GP, LASSO]. Instead received architecture: {}".format(architecture))
+            raise Exception("Architecture must be one of {}. Instead received architecture: {}".format(SUPPORTED_ARCHITECTURES,architecture))
         
         models[target] = architectures
         evaluations[target] = architecture_evaluations
@@ -192,6 +220,8 @@ def main():
     SAVING_DIR = args.saving_dir
     random_state = int(args.random_state)
     architecture = args.architecture
+    if architecture not in SUPPORTED_ARCHITECTURES:
+        raise Exception("Architecture must be one of {}. Instead received architecture: {}".format(SUPPORTED_ARCHITECTURES,architecture))
     print("Using random state:",random_state)
     print("Training architecture:",architecture)
 

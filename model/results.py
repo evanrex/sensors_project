@@ -11,6 +11,7 @@ import pickle
 import os
 
 import argparse
+from constants import SUPPORTED_ARCHITECTURES
 
 parser = argparse.ArgumentParser(description="Results of River Sensor Model Experiments")
 
@@ -25,6 +26,7 @@ parser.add_argument("--experiments_path", type=str, default="/home-mscluster/ere
 
 parser.add_argument("--results_path", type=str, default="/home-mscluster/erex/sensors_project/model/results",
                     help="path to results saving directory")
+
 
 def is_saving_dir(directory):
     directory = str(directory)
@@ -52,27 +54,25 @@ def get_experiments(EXPERIMENTS_PATH):
                 path  = os.path.join(subdir, file)
                 with open(path, 'rb') as pickle_file:
                     if file.endswith("evaluations.pickle"):
-                        experiment['evaluations']  = pickle.load(pickle_file)
-                    elif file.endswith("models.pickle"):
-                        experiment['models']  = pickle.load(pickle_file)
-                    # else:
-                    #     print('unacceptable file',file)
-            # for key in experiment['evaluations'].keys():
-            #     experiment['evaluations'][key]['rmse'] = np.exp(experiment['evaluations'][key]['rmsle'])  # There was an error in main.py, this resolves it
-            
+                        architecture_not_supported = True
+                        for architecture in SUPPORTED_ARCHITECTURES:
+                            if architecture in file:
+                                experiment[architecture]  = pickle.load(pickle_file)
+                                architecture_not_supported = False
+                        if architecture_not_supported:
+                            raise Exception("Architecture for file {} not supported".format(file))
+
             experiments.append(experiment)
-            architecture = list(experiment['models'][list(experiment['models'].keys())[0]].keys())[0]
-        # else:
-        #     print('not a savingdir',subdir)
-    return experiments, architecture
+    return experiments
 
 def get_median_target_experiment(target, experiments, architecture):
     target_experiments = [] 
     for i in range(len(experiments)):
         target_experiment = {
             "id":experiments[i]["id"],
-            "evaluations":experiments[i]["evaluations"][target][architecture],
-            "models":experiments[i]["models"][target][architecture]
+            "evaluations":experiments[i][architecture][target],
+            # "evaluations":experiments[i]["evaluations"][target][architecture],
+            # "models":experiments[i]["models"][target][architecture]
             }
 
         target_experiments.append(target_experiment)
@@ -116,45 +116,46 @@ def main():
 
     targets = df.columns.to_list()
 
-    experiments, architecture = get_experiments(EXPERIMENTS_PATH)
+    experiments = get_experiments(EXPERIMENTS_PATH)
     
     best_rmse = None
     best_target=None
     
-    save_path = RESULTS_SAVING_PATH+'/'+architecture+'.txt'
-    
-    with open(save_path, "w") as f:
-        print("Experiments Results for {} architecture".format(architecture), file=f)
-        print("####################################################################################################", file=f)
-    
-    for target in targets:
-        median_target_experiment = get_median_target_experiment(target, experiments, architecture)
+    for architecture in SUPPORTED_ARCHITECTURES:
+        save_path = RESULTS_SAVING_PATH+'/'+architecture+'.txt'
         
-        median_evaluation_metrics = {key: median_target_experiment["evaluations"][key] for key in median_target_experiment["evaluations"] if key != 'errors'}
-        mean_rmse = get_mean_rmse(target,experiments,architecture)
-        # find out which target we perform best for
-        if best_rmse is None:
-            best_rmse = mean_rmse
-            best_target = target
-        elif best_rmse >= mean_rmse:
-            best_rmse = mean_rmse
-            best_target = target
-            
-        
-        with open(save_path, "a") as f:
-            print("Target:",target, file=f)
-            print("Optimised Hyper-Parameters for median model:",median_target_experiment["models"].best_params_, file=f)
-            print("Median Evaluation Metrics:",median_evaluation_metrics, file=f)
-            print("Mean RMSE",mean_rmse, file=f)
+        with open(save_path, "w") as f:
+            print("Experiments Results for {} architecture".format(architecture), file=f)
             print("####################################################################################################", file=f)
         
-        errors = median_target_experiment["evaluations"]['errors']
-        histogram(RESULTS_SAVING_PATH, target, errors)
+        for target in targets:
+            median_target_experiment = get_median_target_experiment(target, experiments, architecture)
+            
+            median_evaluation_metrics = {key: median_target_experiment["evaluations"][key] for key in median_target_experiment["evaluations"] if key != 'errors'}
+            mean_rmse = get_mean_rmse(target,experiments,architecture)
+            # find out which target we perform best for
+            if best_rmse is None:
+                best_rmse = mean_rmse
+                best_target = target
+            elif best_rmse >= mean_rmse:
+                best_rmse = mean_rmse
+                best_target = target
+                
+            
+            with open(save_path, "a") as f:
+                print("Target:",target, file=f)
+                print("Optimised Hyper-Parameters for median model:",median_target_experiment["models"].best_params_, file=f)
+                print("Median Evaluation Metrics:",median_evaluation_metrics, file=f)
+                print("Mean RMSE",mean_rmse, file=f)
+                print("####################################################################################################", file=f)
+            
+            errors = median_target_experiment["evaluations"]['errors']
+            histogram(RESULTS_SAVING_PATH, target, errors)
+            
+        with open(RESULTS_SAVING_PATH+'/best_target.txt', "a") as f:
+            print("Best target:", best_target, file=f)
+            print("rmse:", best_rmse, file=f)
         
-    with open(RESULTS_SAVING_PATH+'/best_target.txt', "a") as f:
-        print("Best target:", best_target, file=f)
-        print("rmse:", best_rmse, file=f)
-    
 
 
 
