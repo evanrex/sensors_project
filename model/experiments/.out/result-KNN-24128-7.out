@@ -1,0 +1,18 @@
+running job: 7
+/home-mscluster/erex/sensors_project/model
+constants.py
+experiments
+hello_constants.py
+main.py
+__pycache__
+requirements.txt
+results
+results.py
+storage
+Starting Main
+Using random state: 7
+Training architecture: KNN
+Loaded Data
+Starting Experiments
+Training Unnamed: 0 model ...
+Fitting 5 folds for each of 30 candidates, totalling 150 fits

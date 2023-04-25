@@ -1,0 +1,20 @@
+running job: 4
+/home-mscluster/erex/sensors_project/model
+constants.py
+experiments
+hello_constants.py
+main.py
+__pycache__
+requirements.txt
+results
+results.py
+storage
+Starting Main
+Using random state: 4
+Training architecture: KNN
+Loaded Data
+Starting Experiments
+Training Unnamed: 0 model ...
+Fitting 5 folds for each of 30 candidates, totalling 150 fits
+/home-mscluster/erex/sensors_project/model/main.py:151: RuntimeWarning: divide by zero encountered in true_divide
+  perc = np.abs(y_true-y_pred)/y_true
