@@ -10,7 +10,7 @@ echo "running job: "${SLURM_ARRAY_TASK_ID}
 # mkdir -p /home-mscluster/erex/sensors_project/model/experiments/saving_dir${SLURM_ARRAY_TASK_ID}
 
 
-python -m model/main \
+python -m main \
 --data_path /home-mscluster/erex/sensors_project/data/river_sensor_data.csv \
 --saving_dir /home-mscluster/erex/sensors_project/model/experiments/saving_dir${SLURM_ARRAY_TASK_ID} \
 --random_state ${SLURM_ARRAY_TASK_ID} \
