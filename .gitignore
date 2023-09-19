@@ -1,3 +1,6 @@
 venv
 *.ipynb
 RF_models.pickle
+transfer_RF_models.ps1
+!*results_analysis.ipynb
+*\__pycache__
